@@ -1,0 +1,47 @@
+.col-container {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.col-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+//media query 斷點範圍
+
+@mixin desktop-1280{
+  @media (max-width: 1280px) {
+    @content;
+  }
+}
+@mixin desktop-1024{
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin pad-767{
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+@mixin mobile-414{
+  @media (max-width: 414px) {
+    @content;
+  }
+}
+@mixin mobile-375{
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+@mixin mobile-360{
+  @media (max-width: 360px) {
+    @content;
+  }
+}
+
+
+

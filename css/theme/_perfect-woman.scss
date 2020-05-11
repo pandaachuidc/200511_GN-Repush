@@ -1,0 +1,443 @@
+.landing_menu {
+  display: none;
+}
+
+.perfectWoman {
+  .p-414 {
+    @include mobile-414 {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+  &__section3__content {
+    .p-414 {
+      @include mobile-414 {
+        padding-right: 3.5rem;
+        padding-left: 3.5rem;
+      }
+    }
+  }
+  .perfectWoman--pink {
+    color: $pink;
+  }
+  h4 {
+    font-size: $font-ms;
+  }
+
+  h5 {
+    font-size: $font-s;
+  }
+
+  h2 {
+    font-size: $font-xl;
+  }
+  &__kv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include pad-767 {
+      flex-direction: column;
+      &__visual--left {
+        align-self: start;
+      }
+    }
+    &__logo{
+      @include mobile-414{
+        width: 36%;
+      }
+    }
+    &__wrap {
+      margin-right: 3rem;
+      text-align: center;
+      @include pad-767 {
+        margin-right: 0;
+      }
+    }
+    &__text {
+      font-size: $font-m !important;
+
+      &::before,
+      &::after {
+        content: "";
+        display: block;
+        background-color: #000;
+        height: 1px;
+        width: 75%;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  &__section2 {
+    &__bg-img {
+      background-image: url(../images/section-bg-pc_02.jpg);
+      @include pad-767 {
+        background-image: url(../images/section-bg-mb_02.jpg);
+      }
+    }
+    &__content {
+      text-align: center;
+      &:nth-child(2) {
+        top: 2rem;
+        right: 0;
+        left: 0;
+        bottom: 0;
+      }
+      &:nth-child(3) {
+        right: 0;
+        left: 0;
+        bottom: 2rem;
+      }
+      p {
+        @include mobile-414 {
+          font-size: 14px;
+        }
+      }
+      h5 {
+        @include mobile-414 {
+          padding-bottom: 1rem;
+        }
+      }
+    }
+    &__typo {
+      @include mobile-414 {
+        width: 55%;
+      }
+    }
+  }
+  &__section3 {
+    &__bg-img {
+      background-image: url(../images/section-bg-pc_03.jpg);
+      @include pad-767 {
+        background-image: url(../images/section-bg-mb_03.jpg);
+      }
+    }
+    &__content {
+      text-align: center;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      h2 {
+        color: $pink;
+        font-size: $font-xl;
+        margin-top: 1.5rem;
+        @include mobile-414 {
+          margin-top: 0.5rem;
+        }
+      }
+      p {
+        @include mobile-414 {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  &__section {
+    &:nth-of-type(even) {
+      .perfectWoman__section__content {
+        text-align: center;
+        top: 2rem;
+        right: 1rem;
+        bottom: 0;
+        @include pad-767 {
+          right: 0;
+          left: 0;
+        }
+      }
+    }
+    &:nth-of-type(odd) {
+      .perfectWoman__section__content {
+        text-align: center;
+        top: 2rem;
+        left: 1rem;
+        bottom: 0;
+        @include pad-767 {
+          right: 0;
+          left: 0;
+        }
+      }
+    }
+    &__content {
+      img {
+        @include mobile-414 {
+          width: 31%;
+        }
+      }
+      p {
+        @include mobile-414 {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  &__section4 {
+    &__bg-img {
+      background-image: url(../images/section-bg-pc_04.jpg);
+      @include pad-767 {
+        background-image: url(../images/section-bg-mb_04.jpg);
+      }
+    }
+  }
+  &__section5 {
+    &__bg-img {
+      background-image: url(../images/section-bg-pc_05.jpg);
+      @include pad-767 {
+        background-image: url(../images/section-bg-mb_05.jpg);
+      }
+    }
+  }
+  &__section6 {
+    &__bg-img {
+      background-image: url(../images/section-bg-pc_06.jpg);
+      @include pad-767 {
+        background-image: url(../images/section-bg-mb_06.jpg);
+      }
+    }
+  }
+  &__section7 {
+    &__bg-img {
+      background-image: url(../images/section-bg-pc_07.jpg);
+      @include pad-767 {
+        background-image: url(../images/section-bg-mb_07.jpg);
+      }
+    }
+  }
+  &__section8 {
+    &__bg-img {
+      background-image: url(../images/section-bg-pc_08.jpg);
+      @include pad-767 {
+        background-image: url(../images/section-bg-mb_08.jpg);
+      }
+    }
+  }
+  &__section9 {
+    .adjust {
+      position: absolute;
+      z-index: 1;
+      display: block;
+      width: 100px;
+      top: -200px;
+    }
+    &__bg-img {
+      background-image: url(../images/section-bg-pc_09.jpg);
+      @include pad-767 {
+        background-image: url(../images/section-bg-mb_09.jpg);
+      }
+    }
+    &__content {
+      text-align: center;
+      top: 3rem;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      @include mobile-414 {
+        top: 1rem;
+      }
+    }
+    &__formWrap {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      @include pad-767 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 22rem;
+      }
+      @include mobile-414 {
+        margin-top: 7rem;
+      }
+      @include mobile-375 {
+        margin-top: 4rem;
+      }
+    }
+    &__gift {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: center;
+      margin-left: 2rem;
+      width: 50%;
+      margin-bottom: 1.5rem;
+      @include pad-767 {
+        width: 95%;
+        margin-left: 0;
+        ul {
+          width: 30%;
+        }
+        img {
+          width: 40%;
+        }
+      }
+      @include mobile-414 {
+        margin-bottom: 0;
+        ul {
+          width: 40%;
+        }
+      }
+      @include mobile-414 {
+        ul {
+          width: 44%;
+        }
+      }
+      ul {
+        text-align: left;
+        font-size: $font-ms;
+        color: $pink;
+        font-weight: bold;
+        line-height: $base-line-height;
+        margin-bottom: 1.5rem;
+        @include pad-767 {
+          margin-bottom: 0;
+        }
+        @include mobile-414 {
+          font-size: 15px;
+        }
+        li {
+          list-style-image: url(../images/star.png);
+          list-style-position: inside;
+          font-size: $font-sss;
+          color: #6d565a;
+          @include mobile-414 {
+            font-size: 12px;
+          }
+        }
+      }
+      .note {
+        font-size: $font-xs;
+        @include pad-767 {
+          padding-top: 1rem;
+        }
+        @include mobile-375 {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+    &__form {
+      width: 50%;
+      @include pad-767 {
+        width: 100%;
+        padding-top: 2rem;
+      }
+      @include mobile-414 {
+        padding-top: 0;
+      }
+    }
+  }
+  &__section10 {
+    background: url(../images/footer-city.png) no-repeat center bottom;
+    text-align: center;
+    padding-bottom: 5rem;
+    .stuff1,
+    .stuff2,
+    .stuff3 {
+      position: absolute;
+    }
+    .stuff1 {
+      top: -2%;
+      left: 19%;
+      @include mobile-414 {
+        left: 2%;
+      }
+    }
+    .stuff2 {
+      top: -4%;
+      right: 18%;
+      width: 12%;
+      @include pad-767 {
+        top: -3%;
+        right: 15%;
+        width: 15%;
+      }
+      @include mobile-414 {
+        top: -3%;
+        right: 7%;
+        width: 22%;
+      }
+    }
+    .stuff3 {
+      bottom: 0;
+      right: 16%;
+      @include mobile-414 {
+        right: 0;
+      }
+    }
+    h2 {
+      background-color: $lightPink;
+      line-height: 1.8;
+    }
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      font-size: $font-sss;
+      ul {
+        width: 50%;
+        &:first-of-type {
+          margin-right: 0.5rem;
+        }
+        li {
+          list-style-type: none;
+          font-size: $font-sss;
+          line-height: 2.5;
+          &:nth-of-type(odd) {
+            background-color: $lightPink;
+          }
+          span {
+            display: inline-block;
+            width: 50%;
+          }
+        }
+      }
+      @include pad-767 {
+        flex-direction: column;
+        ul {
+          width: 100%;
+          margin-right: 0;
+          li {
+            span {
+              &:first-of-type {
+                width: 60%;
+              }
+              &:last-of-type {
+                width: 40%;
+              }
+            }
+          }
+          &:last-of-type {
+            li {
+              &:nth-of-type(even) {
+                background-color: $lightPink;
+              }
+              &:nth-of-type(odd) {
+                background-color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @include mobile-414 {
+    h2 {
+      font-size: 25px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+
+    h5 {
+      font-size: 16px;
+    }
+    .note {
+      padding-top: 0;
+      font-size: 9px;
+      -webkit-transform: scale(0.75);
+      display: inline-block;
+    }
+    .perfectWoman__section2,
+    .perfectWoman__section3,
+    .perfectWoman__section9 p {
+      font-size: 13px;
+    }
+  }
+}

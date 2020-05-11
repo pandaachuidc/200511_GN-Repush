@@ -1,0 +1,28 @@
+// $base-font-size: 1rem;
+$base-font-size: 16px;
+$base-line-height: 1.5;
+// @include mobile-414{
+//   $base-font-size: 40px;
+// }
+
+@function toRem($unit) {
+  @return ($unit / $base-font-size) * 1rem;
+}
+
+$font-xl: toRem(40px); 
+$font-m: toRem(28px);
+$font-ms: toRem(22px);
+$font-s: toRem(18px);
+// $font-ss: toRem(16px);
+$font-sss: toRem(15px);
+$font-xs: toRem(11px);
+
+.html {
+  font-size: 100%;
+}
+
+.perfectWoman {
+  line-height: $base-line-height;
+  letter-spacing: 0.08rem;
+  font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
+}
