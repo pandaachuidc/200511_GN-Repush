@@ -1,0 +1,155 @@
+.GN-Repush {
+  &__section1 {
+    &__bg-img {
+      background-image: url(../images/GN-Repush-2005_pc_bg_01.jpg);
+    }
+    &__content {
+      top: 9.8rem;
+      // left: 0;
+      right: 0;
+      text-align: center;
+      width: 50%;
+    }
+    &__360 {
+      width: 5.12rem;
+      height: auto;
+    }
+  }
+  &__section2 {
+    line-height: 1.2;
+    &__bg-img {
+      background-image: url(../images/GN-Repush-2005_pc_bg_02.jpg);
+    }
+    &__content {
+      top: 5.87rem;
+      left: 5.6rem;
+      right: 5.6rem;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 6rem;
+    }
+    .col1 {
+      text-align: right;
+      padding-right: 6rem;
+      background-image: url(../images/sec2-text-deco_pc_01.png);
+      background-position: 0 1rem;
+      background-size: contain;
+    }
+    .col2 {
+      text-align: left;
+      padding-left: 6rem;
+      background-image: url(../images/sec2-text-deco_pc_02.png);
+      background-position: 0 11rem;
+      background-size: contain;
+      padding-top: 5rem;
+    }
+    .sec2-main-text {
+      color: $accent-color;
+      line-height: 1.2;
+    }
+    .content-text{
+      line-height: 1.2;
+    }
+    .col4,
+    .col5,
+    .col6 {
+      width: 20rem;
+      h3 {
+        color: $accent-color;
+      }
+    }
+    .col5 {
+      text-align: left;
+    }
+    .col4,
+    .col6 {
+      text-align: right;
+    }
+    .percentage {
+      height: 3.87rem;
+      width: auto;
+      display: inline-block;
+    }
+    .text-underline {
+      display: inline-block;
+      border-bottom: solid 3px $accent-color;
+    }
+  }
+  &__section3 {
+    &__bg-img {
+      background-image: url(../images/GN-Repush-2005_pc_bg_03.jpg);
+    }
+    &__content {
+      top: 5.87rem;
+      left: 0;
+      right: 0;
+      text-align: center;
+      .col{
+        width: 22%;
+      }
+      .step-bg{
+      //  width: 16.8rem;
+      }
+      .step-gif{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;  
+        margin-top: 6.5rem;
+      }
+    }
+  }
+  &__section4 {
+    color: #fff;
+    &__bg-img {
+      background-image: url(../images/GN-Repush-2005_pc_bg_04.jpg);
+    }
+    &__1plus1{
+      width: 6.8rem;
+      height: auto;
+    }
+    &__content {
+      top: 5.87rem;
+      left: 10rem;
+      right: 10rem;
+      text-align: center;
+      
+      .col{
+        margin-top: 20rem;
+        .title{
+          font-size: toRem(23px);
+          font-weight: bold;
+        }
+        .name{
+          font-size: toRem(21px);
+          color: $primary-color;
+        }
+        .price{
+          font-size: toRem(16px);
+           color: $primary-color;
+        }
+      }
+    }
+  }
+    &__section5 {
+    &__bg-img {
+      background-image: url(../images/GN-Repush-2005_pc_bg_05.jpg);
+    }
+   
+    &__content {
+      top: 5.87rem;
+      left: 0;
+      right: 0;
+      text-align: center;
+      .col{
+        // width: 50%;
+      }
+      .col1{}
+    }
+  }
+  .btn-group {
+    a:first-child {
+      margin-right: 1rem;
+    }
+  }
+}
