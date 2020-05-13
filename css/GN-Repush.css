@@ -332,7 +332,7 @@ h2 {
       font-size: 3.75rem; } }
   @media (max-width: 414px) {
     h2 {
-      font-size: 2.5rem; } }
+      font-size: 35px; } }
 
 h3 {
   font-size: 1.875rem;
@@ -345,7 +345,7 @@ h3 {
       font-size: 2.375rem; } }
   @media (max-width: 414px) {
     h3 {
-      font-size: 1.875rem; } }
+      font-size: 30px; } }
 
 .sec2-main-text {
   font-size: 2.5rem;
@@ -358,7 +358,7 @@ h3 {
       font-size: 2.5rem; } }
   @media (max-width: 414px) {
     .sec2-main-text {
-      font-size: 1.75rem; } }
+      font-size: 25px; } }
 
 .sec2-main-text2 {
   font-size: 1.875rem; }
@@ -368,12 +368,20 @@ h3 {
   @media (max-width: 767px) {
     .sec2-main-text2 {
       font-size: 1.875rem; } }
+  @media (max-width: 414px) {
+    .sec2-main-text2 {
+      font-size: 20px; } }
 
 .content-text {
   font-size: 1.5625rem; }
   @media (max-width: 1024px) {
     .content-text {
       font-size: 1.2625rem; } }
+  @media (max-width: 414px) {
+    .content-text {
+      font-size: 20px; } }
+  .content-text--s {
+    font-size: 15px; }
 
 .content-text-product {
   font-size: 1.5625rem; }
@@ -383,6 +391,9 @@ h3 {
   @media (max-width: 767px) {
     .content-text-product {
       font-size: 1.875rem; } }
+  @media (max-width: 414px) {
+    .content-text-product {
+      font-size: 20px; } }
 
 .span-text {
   font-size: 1.0625rem; }
@@ -392,6 +403,9 @@ h3 {
   @media (max-width: 767px) {
     .span-text {
       font-size: 1.375rem; } }
+  @media (max-width: 414px) {
+    .span-text {
+      font-size: 15px; } }
 
 .note-text {
   font-size: 0.6875rem; }
@@ -410,6 +424,9 @@ h3 {
   line-height: 1.5;
   color: #2c4157;
   font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif; }
+  @media (max-width: 414px) {
+    .GN-Repush {
+      line-height: 1.2; } }
 
 .h-flex-row {
   -ms-flex-direction: row !important;
@@ -1870,10 +1887,16 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
       bottom: 3.8rem;
       margin: 0 auto;
       width: 100%; } }
+  @media (max-width: 414px) {
+    .GN-Repush__section1__content {
+      bottom: 2.8rem; } }
 
 .GN-Repush__section1__360 {
   width: 5.12rem;
   height: auto; }
+  @media (max-width: 414px) {
+    .GN-Repush__section1__360 {
+      width: 3.5rem; } }
 
 .GN-Repush__section2 {
   line-height: 1.2; }
@@ -1894,6 +1917,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
       .GN-Repush__section2__content {
         left: 1rem;
         right: 1rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section2__content {
+        top: 4rem; } }
   @media (max-width: 767px) {
     .GN-Repush__section2__col-container1 {
       -webkit-box-orient: vertical;
@@ -1904,6 +1930,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   @media (max-width: 767px) {
     .GN-Repush__section2__col-container2 {
       margin-top: 10rem; } }
+  @media (max-width: 414px) {
+    .GN-Repush__section2__col-container2 {
+      margin-top: 0; } }
   .GN-Repush__section2 h2 {
     margin-bottom: 6rem;
     text-align: center; }
@@ -1913,13 +1942,13 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     @media (max-width: 767px) {
       .GN-Repush__section2 h2 {
         margin-bottom: 10.5rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section2 h2 {
+        margin-bottom: 4rem; } }
   @media (max-width: 767px) {
     .GN-Repush__section2 .note-text--white {
       text-align: right;
       color: #fff; } }
-  @media (max-width: 767px) {
-    .GN-Repush__section2 .col {
-      padding-left: 6rem; } }
   .GN-Repush__section2 .col1 {
     text-align: right;
     padding-right: 6rem;
@@ -1932,6 +1961,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
         background-position: 0 3rem;
         text-align: left;
         padding-right: 0; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section2 .col1 {
+        background-position: 0 5rem; } }
   .GN-Repush__section2 .col2 {
     text-align: left;
     padding-left: 6rem;
@@ -1948,8 +1980,20 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
         background-image: url(../images/sec2-text-deco_mb_01.png);
         padding-top: 2rem;
         background-position: 0 4.5rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section2 .col2 {
+        background-image: url(../images/sec2-text-deco_mb_02.png);
+        padding-left: 0rem;
+        padding-top: 1rem;
+        background-position: 0 2.5rem; } }
     .GN-Repush__section2 .col2 .note-text {
       text-align: left; }
+  @media (max-width: 767px) {
+    .GN-Repush__section2 .col {
+      padding-left: 6rem; } }
+  @media (max-width: 414px) {
+    .GN-Repush__section2 .col {
+      padding-left: 2.5rem; } }
   .GN-Repush__section2 .sec2-main-text {
     color: #5ebee4;
     line-height: 1.2; }
@@ -1964,6 +2008,11 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
       .GN-Repush__section2 .col5,
       .GN-Repush__section2 .col6 {
         width: 15rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section2 .col4,
+      .GN-Repush__section2 .col5,
+      .GN-Repush__section2 .col6 {
+        width: 8.5rem; } }
     .GN-Repush__section2 .col4 .sec2-main-text2,
     .GN-Repush__section2 .col5 .sec2-main-text2,
     .GN-Repush__section2 .col6 .sec2-main-text2 {
@@ -1984,6 +2033,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     @media (max-width: 1024px) {
       .GN-Repush__section2 .percentage {
         height: 3rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section2 .percentage {
+        height: 2.5rem; } }
   .GN-Repush__section2 .text-underline {
     display: inline-block;
     border-bottom: solid 3px #5ebee4; }
@@ -1999,6 +2051,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   left: 0;
   right: 0;
   text-align: center; }
+  @media (max-width: 414px) {
+    .GN-Repush__section3__content {
+      top: 3.5rem; } }
   .GN-Repush__section3__content .col {
     width: 22%; }
     @media (max-width: 767px) {
@@ -2027,6 +2082,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     @media (max-width: 767px) {
       .GN-Repush__section3__content .step-gif {
         margin-top: 7.5rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section3__content .step-gif {
+        margin-top: 3rem; } }
 
 @media (max-width: 767px) {
   .GN-Repush__section3__col-container {

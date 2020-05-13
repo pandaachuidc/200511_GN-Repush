@@ -37,7 +37,7 @@ h2 {
     font-size: $font-xxl;
   }
   @include mobile-414 {
-    font-size: $font-xl;
+    font-size: 35px;
   }
 }
 h3 {
@@ -50,7 +50,7 @@ h3 {
     font-size: $font-l-mb;
   }
   @include mobile-414 {
-    font-size: $font-l;
+    font-size: 30px;
   }
 }
 .sec2-main-text {
@@ -63,7 +63,7 @@ h3 {
     font-size: $font-xl;
   }
   @include mobile-414 {
-    font-size: $font-m-mb;
+    font-size: 25px;
   }
 }
 .sec2-main-text2 {
@@ -74,11 +74,20 @@ h3 {
   @include pad-767 {
     font-size: $font-l;
   }
+  @include mobile-414 {
+    font-size: 20px;
+  }
 }
 .content-text {
   font-size: $font-m;
   @include desktop-1024 {
     font-size: $font-m - 0.3;
+  }
+  @include mobile-414 {
+    font-size: 20px;
+  }
+  &--s {
+    font-size: 20px - 5;
   }
 }
 .content-text-product {
@@ -89,6 +98,9 @@ h3 {
   @include pad-767 {
     font-size: $font-l;
   }
+  @include mobile-414 {
+    font-size: 20px;
+  }
 }
 .span-text {
   font-size: $font-m - 0.5;
@@ -97,6 +109,9 @@ h3 {
   }
   @include pad-767 {
     font-size: $font-l - 0.5;
+  }
+  @include mobile-414 {
+    font-size: 20px - 5;
   }
 }
 .note-text {
@@ -120,4 +135,7 @@ h3 {
   // letter-spacing: 0.08rem;
   color: $primary-color;
   font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif;
+  @include mobile-414 {
+    line-height: 1.2;
+  }
 }

@@ -23,10 +23,16 @@
         margin: 0 auto;
         width: 100%;
       }
+      @include mobile-414 {
+        bottom: 2.8rem;
+      }
     }
     &__360 {
       width: 5.12rem;
       height: auto;
+      @include mobile-414 {
+        width: 3.5rem;
+      }
     }
   }
   &__section2 {
@@ -49,6 +55,9 @@
         left: 1rem;
         right: 1rem;
       }
+      @include mobile-414 {
+        top: 4rem;
+      }
     }
     &__col-container1 {
       @include pad-767 {
@@ -60,6 +69,9 @@
       @include pad-767 {
         margin-top: 10rem;
       }
+      @include mobile-414 {
+        margin-top: 0;
+      }
     }
     h2 {
       margin-bottom: 6rem;
@@ -70,6 +82,9 @@
       @include pad-767 {
         margin-bottom: 10.5rem;
       }
+      @include mobile-414 {
+        margin-bottom: 4rem;
+      }
     }
     .note-text {
       &--white {
@@ -79,11 +94,7 @@
         }
       }
     }
-    .col {
-      @include pad-767 {
-        padding-left: 6rem;
-      }
-    }
+
     .col1 {
       text-align: right;
       padding-right: 6rem;
@@ -95,6 +106,9 @@
         background-position: 0 3rem;
         text-align: left;
         padding-right: 0;
+      }
+      @include mobile-414 {
+        background-position: 0 5rem;
       }
     }
     .col2 {
@@ -113,8 +127,22 @@
         padding-top: 2rem;
         background-position: 0 4.5rem;
       }
+      @include mobile-414 {
+        background-image: url(../images/sec2-text-deco_mb_02.png);
+        padding-left: 0rem;
+        padding-top: 1rem;
+        background-position: 0 2.5rem;
+      }
       .note-text {
         text-align: left;
+      }
+    }
+    .col {
+      @include pad-767 {
+        padding-left: 6rem;
+      }
+      @include mobile-414 {
+        padding-left: 2.5rem;
       }
     }
     .sec2-main-text {
@@ -130,6 +158,9 @@
       width: 20rem;
       @include pad-767 {
         width: 15rem;
+      }
+      @include mobile-414 {
+        width: 8.5rem;
       }
       .sec2-main-text2 {
         color: $accent-color;
@@ -155,6 +186,9 @@
       @include desktop-1024 {
         height: 3rem;
       }
+      @include mobile-414 {
+        height: 2.5rem;
+      }
     }
     .text-underline {
       display: inline-block;
@@ -173,6 +207,9 @@
       left: 0;
       right: 0;
       text-align: center;
+       @include mobile-414{
+        top: 3.5rem;
+      }
       .col {
         width: 22%;
         @include pad-767 {
@@ -206,6 +243,9 @@
         }
         @include pad-767 {
           margin-top: 7.5rem;
+        }
+        @include mobile-414 {
+          margin-top: 3rem;
         }
       }
     }
@@ -255,9 +295,9 @@
 
       .col {
         @include mobile-414 {
-            margin-right: 0.5rem;
-            margin-left: 0.5rem;
-          }
+          margin-right: 0.5rem;
+          margin-left: 0.5rem;
+        }
         .title {
           font-size: toRem(23px);
           font-weight: bold;
