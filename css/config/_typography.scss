@@ -75,7 +75,7 @@ h3 {
     font-size: $font-l;
   }
   @include mobile-414 {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .content-text {
@@ -85,10 +85,11 @@ h3 {
   }
   @include mobile-414 {
     font-size: 20px;
+    &--s {
+      font-size: 20px - 5;
+    }
   }
-  &--s {
-    font-size: 20px - 5;
-  }
+  
 }
 .content-text-product {
   font-size: $font-m;

@@ -370,7 +370,7 @@ h3 {
       font-size: 1.875rem; } }
   @media (max-width: 414px) {
     .sec2-main-text2 {
-      font-size: 20px; } }
+      font-size: 18px; } }
 
 .content-text {
   font-size: 1.5625rem; }
@@ -379,9 +379,9 @@ h3 {
       font-size: 1.2625rem; } }
   @media (max-width: 414px) {
     .content-text {
-      font-size: 20px; } }
-  .content-text--s {
-    font-size: 15px; }
+      font-size: 20px; }
+      .content-text--s {
+        font-size: 15px; } }
 
 .content-text-product {
   font-size: 1.5625rem; }
@@ -1890,6 +1890,11 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   @media (max-width: 414px) {
     .GN-Repush__section1__content {
       bottom: 2.8rem; } }
+  @media (max-width: 375px) {
+    .GN-Repush__section1__content {
+      bottom: 0.5rem; } }
+  .GN-Repush__section1__content .note-text {
+    margin-top: 5%; }
 
 .GN-Repush__section1__360 {
   width: 5.12rem;
@@ -1919,7 +1924,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
         right: 1rem; } }
     @media (max-width: 414px) {
       .GN-Repush__section2__content {
-        top: 4rem; } }
+        top: 4rem;
+        left: 0.5rem;
+        right: 0.5rem; } }
   @media (max-width: 767px) {
     .GN-Repush__section2__col-container1 {
       -webkit-box-orient: vertical;
@@ -1945,10 +1952,20 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     @media (max-width: 414px) {
       .GN-Repush__section2 h2 {
         margin-bottom: 4rem; } }
-  @media (max-width: 767px) {
+    @media (max-width: 375px) {
+      .GN-Repush__section2 h2 {
+        margin-bottom: 1rem; } }
+  .GN-Repush__section2 .note-text {
+    text-align: center;
+    bottom: 1rem;
+    left: 0;
+    right: 0; }
     .GN-Repush__section2 .note-text--white {
-      text-align: right;
-      color: #fff; } }
+      color: #fff; }
+      @media (max-width: 767px) {
+        .GN-Repush__section2 .note-text--white {
+          text-align: right;
+          margin-right: -2rem; } }
   .GN-Repush__section2 .col1 {
     text-align: right;
     padding-right: 6rem;
@@ -1963,7 +1980,12 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
         padding-right: 0; } }
     @media (max-width: 414px) {
       .GN-Repush__section2 .col1 {
-        background-position: 0 5rem; } }
+        background-position: 0 5rem;
+        padding-top: 2rem;
+        padding-bottom: 1.5rem; } }
+    @media (max-width: 375px) {
+      .GN-Repush__section2 .col1 {
+        background-position: 0 6.5rem; } }
   .GN-Repush__section2 .col2 {
     text-align: left;
     padding-left: 6rem;
@@ -1983,11 +2005,16 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     @media (max-width: 414px) {
       .GN-Repush__section2 .col2 {
         background-image: url(../images/sec2-text-deco_mb_02.png);
-        padding-left: 0rem;
+        background-position: 0 0.5rem;
+        padding-left: 0;
         padding-top: 1rem;
-        background-position: 0 2.5rem; } }
+        padding-bottom: 1.5rem; } }
+    @media (max-width: 375px) {
+      .GN-Repush__section2 .col2 {
+        padding-top: 0; } }
     .GN-Repush__section2 .col2 .note-text {
-      text-align: left; }
+      text-align: left;
+      margin-top: 0.8rem; }
   @media (max-width: 767px) {
     .GN-Repush__section2 .col {
       padding-left: 6rem; } }
@@ -1999,6 +2026,8 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     line-height: 1.2; }
   .GN-Repush__section2 .content-text {
     line-height: 1.2; }
+    .GN-Repush__section2 .content-text--s {
+      font-size: 14px; }
   .GN-Repush__section2 .col4,
   .GN-Repush__section2 .col5,
   .GN-Repush__section2 .col6 {
@@ -2013,6 +2042,11 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
       .GN-Repush__section2 .col5,
       .GN-Repush__section2 .col6 {
         width: 8.5rem; } }
+    @media (max-width: 375px) {
+      .GN-Repush__section2 .col4,
+      .GN-Repush__section2 .col5,
+      .GN-Repush__section2 .col6 {
+        width: 8rem; } }
     .GN-Repush__section2 .col4 .sec2-main-text2,
     .GN-Repush__section2 .col5 .sec2-main-text2,
     .GN-Repush__section2 .col6 .sec2-main-text2 {
@@ -2026,6 +2060,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     .GN-Repush__section2 .col5,
     .GN-Repush__section2 .col6 {
       margin-top: -5rem; } }
+  @media (max-width: 414px) {
+    .GN-Repush__section2 .col6 {
+      margin-top: -6rem; } }
   .GN-Repush__section2 .percentage {
     height: 3.87rem;
     width: auto;
@@ -2036,6 +2073,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     @media (max-width: 414px) {
       .GN-Repush__section2 .percentage {
         height: 2.5rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section2 .percentage {
+        height: 2.2rem; } }
   .GN-Repush__section2 .text-underline {
     display: inline-block;
     border-bottom: solid 3px #5ebee4; }
@@ -2059,6 +2099,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     @media (max-width: 767px) {
       .GN-Repush__section3__content .col {
         width: 45%; } }
+    @media (max-width: 375px) {
+      .GN-Repush__section3__content .col {
+        width: 43%; } }
   .GN-Repush__section3__content .col1,
   .GN-Repush__section3__content .col2,
   .GN-Repush__section3__content .col3 {
@@ -2071,6 +2114,10 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     .GN-Repush__section3__content .col3,
     .GN-Repush__section3__content .col4 {
       margin-top: 3rem; } }
+  @media (max-width: 414px) {
+    .GN-Repush__section3__content .col3,
+    .GN-Repush__section3__content .col4 {
+      margin-top: 1rem; } }
   .GN-Repush__section3__content .step-gif {
     width: 80%;
     margin-right: auto;
@@ -2090,6 +2137,11 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   .GN-Repush__section3__col-container {
     padding-right: 2rem;
     padding-left: 2rem; } }
+
+@media (max-width: 375px) {
+  .GN-Repush__section3__col-container {
+    padding-right: 1rem;
+    padding-left: 1rem; } }
 
 .GN-Repush__section4 {
   color: #fff; }
@@ -2141,6 +2193,9 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
       @media (max-width: 414px) {
         .GN-Repush__section4__content .col .title {
           font-size: 1.125rem; } }
+      @media (max-width: 375px) {
+        .GN-Repush__section4__content .col .title {
+          font-size: 1rem; } }
     .GN-Repush__section4__content .col .name {
       font-size: 1.3125rem;
       color: #2c4157; }
@@ -2173,20 +2228,143 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     @media (max-width: 414px) {
       .GN-Repush__section4__container {
         margin-top: 15.8rem; } }
+    @media (max-width: 375px) {
+      .GN-Repush__section4__container {
+        margin-top: 12.8rem; } }
     .GN-Repush__section4__container .col2 {
       margin-top: 2rem; }
 
-.GN-Repush__section5__bg-img {
-  background-image: url(../images/GN-Repush-2005_pc_bg_05.jpg); }
-  @media (max-width: 767px) {
-    .GN-Repush__section5__bg-img {
-      background-image: url(../images/GN-Repush-2005_mb_bg_05.jpg); } }
-
-.GN-Repush__section5__content {
-  top: 5.87rem;
-  left: 0;
-  right: 0;
-  text-align: center; }
-
 .GN-Repush .btn-group a:first-child {
   margin-right: 1rem; }
+
+@media (max-width: 375px) {
+  .GN-Repush .btn-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* justify-content: center; */
+    margin: 0 0.5rem; } }
+
+#loreal-compaign .ll-page-eyegen .GN-Repush__section5 {
+  color: #2c4157; }
+  #loreal-compaign .ll-page-eyegen .GN-Repush__section5 .content-warp .content-text-product {
+    text-align: center;
+    font-size: 1.5625rem; }
+    @media (max-width: 1024px) {
+      #loreal-compaign .ll-page-eyegen .GN-Repush__section5 .content-warp .content-text-product {
+        font-size: 1.2625rem; } }
+    @media (max-width: 767px) {
+      #loreal-compaign .ll-page-eyegen .GN-Repush__section5 .content-warp .content-text-product {
+        font-size: 1.875rem; } }
+    @media (max-width: 414px) {
+      #loreal-compaign .ll-page-eyegen .GN-Repush__section5 .content-warp .content-text-product {
+        font-size: 20px; } }
+
+#loreal-compaign .ll-page-eyegen--title--main--o2o,
+#loreal-compaign .ll-page-eyegen--subtitle--main--o2o {
+  font-weight: bold; }
+
+#loreal-compaign .ll-page-eyegen--title--main--o2o,
+#loreal-compaign .ll-page-eyegen--subtitle--main--o2o,
+#loreal-compaign .ll-page-eyegen--text--o2o,
+#loreal-compaign .ll-page-eyegen--text--rule li {
+  color: #2c4157; }
+
+#loreal-compaign .ll-page-eyegen--title--main {
+  border-bottom: none; }
+  @media (max-width: 414px) {
+    #loreal-compaign .ll-page-eyegen--title--main {
+      margin-top: 5px; } }
+
+#loreal-compaign .lancome-btn__link {
+  font-family: 'Microsoft JhengHei', '微軟正黑體', sans-serif;
+  color: #fff;
+  background: #000;
+  text-align: center;
+  padding: 0.7rem 3.5rem;
+  display: inline-block;
+  font-size: 1.125rem;
+  letter-spacing: 0.1em;
+  border: 1px solid #000;
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px #fff; }
+  @media (max-width: 767px) {
+    #loreal-compaign .lancome-btn__link {
+      font-size: 0.925rem;
+      padding: 0.7rem 2.5rem; } }
+
+#loreal-compaign .lancome-btn__link--active {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  overflow: hidden;
+  position: relative; }
+  #loreal-compaign .lancome-btn__link--active:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    background: #fff;
+    color: #000; }
+
+@media (max-width: 767px) {
+  #loreal-compaign .formfield.formfield_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
+
+#loreal-compaign .ll-page-eyegen .event_content .button_box button {
+  height: auto;
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #000; }
+  @media (max-width: 767px) {
+    #loreal-compaign .ll-page-eyegen .event_content .button_box button {
+      margin-right: 0.5rem; } }
+  @media (max-width: 767px) {
+    #loreal-compaign .ll-page-eyegen .event_content .button_box button span {
+      width: 116%;
+      display: block; } }
+
+#loreal-compaign button {
+  /* -webkit-appearance: none; */
+  -moz-appearance: none;
+  /* background: transparent; */
+  /* padding: 0; */
+  /* border: 0; */
+  /* border-radius: 0; */
+  /* line-height: 1; */ }
+
+#loreal-compaign .selectboxit-container .selectboxit-btn,
+#loreal-compaign .selectboxit-container .selectboxit-text,
+#loreal-compaign .selectboxit-container .selectboxit-option-anchor,
+#loreal-compaign .textinput {
+  color: #2c4157; }
+
+#loreal-compaign .selectboxit-btn {
+  border-color: #2c4157; }
+
+#loreal-compaign .selectboxit-container.selectboxit-container {
+  background-color: #fff; }
+
+#loreal-compaign .ll-page-eyegen .event_content .textinput {
+  font-size: 16px;
+  padding: 0 1.25rem 0 0.625rem;
+  height: 2.8125rem;
+  line-height: 2.8125rem;
+  width: 100%;
+  max-width: 100%;
+  color: #2c4157;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-color: #2c4157; }
+
+#loreal-compaign .ll-page-eyegen .event_content .answer7 .f_label {
+  color: #2c4157; }
+
+#loreal-compaign .ll-page-eyegen .event_content .formfield_checkbox.answer7 {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
