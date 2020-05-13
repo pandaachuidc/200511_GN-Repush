@@ -77,6 +77,9 @@ h3 {
   @include mobile-414 {
     font-size: 18px;
   }
+  @include mobile-375 {
+    font-size: 17px;
+  }
 }
 .content-text {
   font-size: $font-m;

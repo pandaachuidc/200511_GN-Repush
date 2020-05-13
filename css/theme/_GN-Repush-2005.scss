@@ -27,10 +27,15 @@
                 bottom: 2.8rem;
             }
             @include mobile-375 {
-              bottom: 0.5rem;
+                bottom: 0.5rem;
             }
-            .note-text{
-              margin-top: 5%;
+            .note-text {
+                margin-top: 5%;
+            }
+            h3 {
+                @include mobile-375 {
+                    font-size: 25px;
+                }
             }
         }
         &__360 {
@@ -103,7 +108,7 @@
             left: 0;
             right: 0;
             &--white {
-              color: #fff;
+                color: #fff;
                 @include pad-767 {
                     text-align: right;
                     margin-right: -2rem;
@@ -129,7 +134,7 @@
                 padding-bottom: 1.5rem;
             }
             @include mobile-375 {
-                background-position: 0 6.5rem;
+                background-position: 0 5rem;
             }
         }
         .col2 {
@@ -156,7 +161,7 @@
                 padding-bottom: 1.5rem;
             }
             @include mobile-375 {
-              padding-top: 0;
+                padding-top: 0;
             }
             .note-text {
                 text-align: left;
@@ -177,8 +182,8 @@
         }
         .content-text {
             line-height: 1.2;
-            &--s{
-              font-size: 14px;
+            &--s {
+                font-size: 14px;
             }
         }
         .col4,
@@ -215,6 +220,9 @@
             @include mobile-414 {
                 margin-top: -6rem;
             }
+            @include mobile-375 {
+                margin-top: -4rem;
+            }
         }
         .percentage {
             height: 3.87rem;
@@ -229,6 +237,9 @@
             @include mobile-414 {
                 height: 2.2rem;
             }
+        }
+        .percentage.on {
+            animation: fade-in-down 2s ease;
         }
         .text-underline {
             display: inline-block;
@@ -256,7 +267,7 @@
                     width: 45%;
                 }
                 @include mobile-375 {
-                  width: 43%;
+                    width: 43%;
                 }
             }
             .col1,
@@ -301,8 +312,8 @@
                 padding-left: 2rem;
             }
             @include mobile-375 {
-              padding-right: 1rem;
-              padding-left: 1rem;
+                padding-right: 1rem;
+                padding-left: 1rem;
             }
         }
     }
@@ -365,8 +376,8 @@
                         font-size: toRem(18px);
                     }
                     @include mobile-375 {
-                      font-size: toRem(16px);
-                  }
+                        font-size: toRem(16px);
+                    }
                 }
                 .name {
                     font-size: toRem(21px);
@@ -405,7 +416,7 @@
                 margin-top: 15.8rem;
             }
             @include mobile-375 {
-              margin-top: 12.8rem;
+                margin-top: 13.8rem;
             }
             .col2 {
                 margin-top: 2rem;
@@ -442,6 +453,17 @@
                     @include mobile-414 {
                         font-size: 20px;
                     }
+                }
+            }
+            .note-text {
+                left: 0;
+                right: 3rem;
+                bottom: 1rem;
+                text-align: right;
+                color: #fff;
+                @include pad-767 {
+                    text-align: center;
+                    color: $primary-color;
                 }
             }
         }
@@ -492,6 +514,8 @@
     }
 
     .formfield.formfield_button {
+        display: flex;
+        justify-content: space-around;
         @include pad-767 {
             display: flex;
             justify-content: center;
@@ -514,21 +538,6 @@
             }
         }
     }
-
-    button {
-        /* -webkit-appearance: none; */
-        -moz-appearance: none;
-        /* background: transparent; */
-        /* padding: 0; */
-        /* border: 0; */
-        /* border-radius: 0; */
-        /* line-height: 1; */
-    }
-    // a {
-    //     background-color: black;
-    //     color: #fff;
-    //     text-decoration: none;
-    // }
 
     // form
 
@@ -564,6 +573,12 @@
     .ll-page-eyegen .event_content .formfield_checkbox.answer7 {
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+
+    @media (min-width: 992px) {
+        .ll-page-eyegen .moveo2o {
+            width: 48%;
+        }
     }
 
     // .selectboxit-container .selectboxit {
