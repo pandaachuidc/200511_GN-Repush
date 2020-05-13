@@ -1,0 +1,24 @@
+// 小黑瓶舊照更換
+#loreal-compaign .ll-page-eyegen .family2 .ll-img--family {
+  background: url(../images/family_prod2_2005.png);
+}
+
+// 冰珠舊照更換
+#loreal-compaign .ll-page-eyegen .family3 .ll-img--family {
+  background: url(../images/family_prod3_2005.png);
+}
+
+// 眼霜舊照更換
+#loreal-compaign .ll-page-eyegen .family4 .ll-img--family {
+  // width: 90px;
+  // height: 230px;
+  background: url(../images/family_prod4_2005.png);
+}
+
+// family背景更換
+@media (min-width: 992px) {
+  #loreal-compaign .ll-bg--family {
+    background: url(../images/family_bg_2005.jpg);
+    // height: 1050px;
+  }
+}

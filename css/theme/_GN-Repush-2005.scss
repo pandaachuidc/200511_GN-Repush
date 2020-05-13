@@ -2,6 +2,9 @@
   &__section1 {
     &__bg-img {
       background-image: url(../images/GN-Repush-2005_pc_bg_01.jpg);
+      @include pad-767 {
+        background-image: url(../images/GN-Repush-2005_mb_bg_01.jpg);
+      }
     }
     &__content {
       top: 9.8rem;
@@ -9,6 +12,17 @@
       right: 0;
       text-align: center;
       width: 50%;
+      @include desktop-1024 {
+        top: 5.8rem;
+      }
+      @include pad-767 {
+        top: auto;
+        left: 0;
+        right: 0;
+        bottom: 3.8rem;
+        margin: 0 auto;
+        width: 100%;
+      }
     }
     &__360 {
       width: 5.12rem;
@@ -19,15 +33,56 @@
     line-height: 1.2;
     &__bg-img {
       background-image: url(../images/GN-Repush-2005_pc_bg_02.jpg);
+      @include pad-767 {
+        background-image: url(../images/GN-Repush-2005_mb_bg_02.jpg);
+      }
     }
     &__content {
       top: 5.87rem;
       left: 5.6rem;
       right: 5.6rem;
-      text-align: center;
+      @include desktop-1024 {
+        left: 2rem;
+        right: 2rem;
+      }
+      @include pad-767 {
+        left: 1rem;
+        right: 1rem;
+      }
+    }
+    &__col-container1 {
+      @include pad-767 {
+        flex-direction: column;
+        margin-left: 20%;
+      }
+    }
+    &__col-container2 {
+      @include pad-767 {
+        margin-top: 10rem;
+      }
     }
     h2 {
       margin-bottom: 6rem;
+      text-align: center;
+      @include desktop-1024 {
+        margin-bottom: 5rem;
+      }
+      @include pad-767 {
+        margin-bottom: 10.5rem;
+      }
+    }
+    .note-text {
+      &--white {
+        @include pad-767 {
+          text-align: right;
+          color: #fff;
+        }
+      }
+    }
+    .col {
+      @include pad-767 {
+        padding-left: 6rem;
+      }
     }
     .col1 {
       text-align: right;
@@ -35,6 +90,12 @@
       background-image: url(../images/sec2-text-deco_pc_01.png);
       background-position: 0 1rem;
       background-size: contain;
+      @include pad-767 {
+        background-image: url(../images/sec2-text-deco_mb_01.png);
+        background-position: 0 3rem;
+        text-align: left;
+        padding-right: 0;
+      }
     }
     .col2 {
       text-align: left;
@@ -43,19 +104,34 @@
       background-position: 0 11rem;
       background-size: contain;
       padding-top: 5rem;
+      @include desktop-1024 {
+        background-position: 0 8rem;
+        padding-top: 3rem;
+      }
+      @include pad-767 {
+        background-image: url(../images/sec2-text-deco_mb_01.png);
+        padding-top: 2rem;
+        background-position: 0 4.5rem;
+      }
+      .note-text {
+        text-align: left;
+      }
     }
     .sec2-main-text {
       color: $accent-color;
       line-height: 1.2;
     }
-    .content-text{
+    .content-text {
       line-height: 1.2;
     }
     .col4,
     .col5,
     .col6 {
       width: 20rem;
-      h3 {
+      @include pad-767 {
+        width: 15rem;
+      }
+      .sec2-main-text2 {
         color: $accent-color;
       }
     }
@@ -66,10 +142,19 @@
     .col6 {
       text-align: right;
     }
+    .col5,
+    .col6 {
+      @include pad-767 {
+        margin-top: -5rem;
+      }
+    }
     .percentage {
       height: 3.87rem;
       width: auto;
       display: inline-block;
+      @include desktop-1024 {
+        height: 3rem;
+      }
     }
     .text-underline {
       display: inline-block;
@@ -79,23 +164,55 @@
   &__section3 {
     &__bg-img {
       background-image: url(../images/GN-Repush-2005_pc_bg_03.jpg);
+      @include pad-767 {
+        background-image: url(../images/GN-Repush-2005_mb_bg_03.jpg);
+      }
     }
     &__content {
       top: 5.87rem;
       left: 0;
       right: 0;
       text-align: center;
-      .col{
+      .col {
         width: 22%;
+        @include pad-767 {
+          width: 45%;
+        }
       }
-      .step-bg{
-      //  width: 16.8rem;
+      .col1,
+      .col2,
+      .col3 {
+        margin-right: 1rem;
       }
-      .step-gif{
+      .col {
+        @include pad-767 {
+          margin-right: 0.5rem;
+          margin-left: 0.5rem;
+        }
+      }
+      .col3,
+      .col4 {
+        @include pad-767 {
+          margin-top: 3rem;
+        }
+      }
+      .step-gif {
         width: 80%;
         margin-right: auto;
-        margin-left: auto;  
+        margin-left: auto;
         margin-top: 6.5rem;
+        @include desktop-1024 {
+          margin-top: 5rem;
+        }
+        @include pad-767 {
+          margin-top: 7.5rem;
+        }
+      }
+    }
+    &__col-container {
+      @include pad-767 {
+        padding-right: 2rem;
+        padding-left: 2rem;
       }
     }
   }
@@ -103,48 +220,116 @@
     color: #fff;
     &__bg-img {
       background-image: url(../images/GN-Repush-2005_pc_bg_04.jpg);
+      @include pad-767 {
+        background-image: url(../images/GN-Repush-2005_mb_bg_04.jpg);
+      }
     }
-    &__1plus1{
+    &__1plus1 {
       width: 6.8rem;
       height: auto;
+      @include pad-767 {
+        width: 8.8rem;
+      }
+      @include mobile-414 {
+        width: 6.8rem;
+      }
     }
     &__content {
       top: 5.87rem;
       left: 10rem;
       right: 10rem;
       text-align: center;
-      
-      .col{
-        margin-top: 20rem;
-        .title{
+      @include desktop-1024 {
+        left: 7rem;
+        right: 7rem;
+      }
+      @include pad-767 {
+        left: 3rem;
+        right: 3rem;
+      }
+      @include mobile-414 {
+        left: 0rem;
+        right: 0rem;
+        top: 2.8rem;
+      }
+
+      .col {
+        @include mobile-414 {
+            margin-right: 0.5rem;
+            margin-left: 0.5rem;
+          }
+        .title {
           font-size: toRem(23px);
           font-weight: bold;
+          @include desktop-1024 {
+            font-size: toRem(23px) - 0.3;
+          }
+          @include pad-767 {
+            font-size: toRem(30px);
+          }
+          @include mobile-414 {
+            font-size: toRem(18px);
+          }
         }
-        .name{
+        .name {
           font-size: toRem(21px);
           color: $primary-color;
+          @include desktop-1024 {
+            font-size: toRem(21px) - 0.3;
+          }
+          @include pad-767 {
+            font-size: toRem(28px);
+          }
+          @include mobile-414 {
+            font-size: toRem(16px);
+          }
         }
-        .price{
+        .price {
           font-size: toRem(16px);
-           color: $primary-color;
+          color: $primary-color;
+          @include pad-767 {
+            font-size: toRem(25px);
+          }
+          @include mobile-414 {
+            font-size: toRem(14px);
+          }
         }
       }
     }
+    &__container {
+      margin-top: 20rem;
+      @include desktop-1024 {
+        margin-top: 13rem;
+      }
+      @include pad-767 {
+        margin-top: 38rem;
+      }
+      @include mobile-414 {
+        margin-top: 15.8rem;
+      }
+      .col2 {
+        margin-top: 2rem;
+      }
+    }
   }
-    &__section5 {
+  &__section5 {
     &__bg-img {
       background-image: url(../images/GN-Repush-2005_pc_bg_05.jpg);
+      @include pad-767 {
+        background-image: url(../images/GN-Repush-2005_mb_bg_05.jpg);
+      }
     }
-   
+
     &__content {
       top: 5.87rem;
       left: 0;
       right: 0;
       text-align: center;
-      .col{
+      .col {
         // width: 50%;
       }
-      .col1{}
+      .col1 {
+      }
     }
   }
   .btn-group {

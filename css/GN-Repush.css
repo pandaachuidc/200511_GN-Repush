@@ -324,22 +324,84 @@ p {
 h2 {
   font-size: 2.5rem;
   font-weight: bold; }
+  @media (max-width: 1024px) {
+    h2 {
+      font-size: 2.2rem; } }
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 3.75rem; } }
+  @media (max-width: 414px) {
+    h2 {
+      font-size: 2.5rem; } }
 
 h3 {
   font-size: 1.875rem;
   font-weight: bold; }
+  @media (max-width: 1024px) {
+    h3 {
+      font-size: 1.575rem; } }
+  @media (max-width: 767px) {
+    h3 {
+      font-size: 2.375rem; } }
+  @media (max-width: 414px) {
+    h3 {
+      font-size: 1.875rem; } }
 
 .sec2-main-text {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  font-weight: bold; }
+  @media (max-width: 1024px) {
+    .sec2-main-text {
+      font-size: 2.2rem; } }
+  @media (max-width: 767px) {
+    .sec2-main-text {
+      font-size: 2.5rem; } }
+  @media (max-width: 414px) {
+    .sec2-main-text {
+      font-size: 1.75rem; } }
+
+.sec2-main-text2 {
+  font-size: 1.875rem; }
+  @media (max-width: 1024px) {
+    .sec2-main-text2 {
+      font-size: 1.575rem; } }
+  @media (max-width: 767px) {
+    .sec2-main-text2 {
+      font-size: 1.875rem; } }
 
 .content-text {
   font-size: 1.5625rem; }
+  @media (max-width: 1024px) {
+    .content-text {
+      font-size: 1.2625rem; } }
+
+.content-text-product {
+  font-size: 1.5625rem; }
+  @media (max-width: 1024px) {
+    .content-text-product {
+      font-size: 1.2625rem; } }
+  @media (max-width: 767px) {
+    .content-text-product {
+      font-size: 1.875rem; } }
 
 .span-text {
   font-size: 1.0625rem; }
+  @media (max-width: 1024px) {
+    .span-text {
+      font-size: 0.7625rem; } }
+  @media (max-width: 767px) {
+    .span-text {
+      font-size: 1.375rem; } }
 
 .note-text {
   font-size: 0.6875rem; }
+  @media (max-width: 1024px) {
+    .note-text {
+      font-size: -0.1125rem; } }
+  @media (max-width: 767px) {
+    .note-text {
+      font-size: 9px;
+      -webkit-transform: scale(0.75); } }
 
 .html {
   font-size: 100%; }
@@ -1788,12 +1850,26 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 
 .GN-Repush__section1__bg-img {
   background-image: url(../images/GN-Repush-2005_pc_bg_01.jpg); }
+  @media (max-width: 767px) {
+    .GN-Repush__section1__bg-img {
+      background-image: url(../images/GN-Repush-2005_mb_bg_01.jpg); } }
 
 .GN-Repush__section1__content {
   top: 9.8rem;
   right: 0;
   text-align: center;
   width: 50%; }
+  @media (max-width: 1024px) {
+    .GN-Repush__section1__content {
+      top: 5.8rem; } }
+  @media (max-width: 767px) {
+    .GN-Repush__section1__content {
+      top: auto;
+      left: 0;
+      right: 0;
+      bottom: 3.8rem;
+      margin: 0 auto;
+      width: 100%; } }
 
 .GN-Repush__section1__360 {
   width: 5.12rem;
@@ -1803,19 +1879,59 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   line-height: 1.2; }
   .GN-Repush__section2__bg-img {
     background-image: url(../images/GN-Repush-2005_pc_bg_02.jpg); }
+    @media (max-width: 767px) {
+      .GN-Repush__section2__bg-img {
+        background-image: url(../images/GN-Repush-2005_mb_bg_02.jpg); } }
   .GN-Repush__section2__content {
     top: 5.87rem;
     left: 5.6rem;
-    right: 5.6rem;
-    text-align: center; }
+    right: 5.6rem; }
+    @media (max-width: 1024px) {
+      .GN-Repush__section2__content {
+        left: 2rem;
+        right: 2rem; } }
+    @media (max-width: 767px) {
+      .GN-Repush__section2__content {
+        left: 1rem;
+        right: 1rem; } }
+  @media (max-width: 767px) {
+    .GN-Repush__section2__col-container1 {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-left: 20%; } }
+  @media (max-width: 767px) {
+    .GN-Repush__section2__col-container2 {
+      margin-top: 10rem; } }
   .GN-Repush__section2 h2 {
-    margin-bottom: 6rem; }
+    margin-bottom: 6rem;
+    text-align: center; }
+    @media (max-width: 1024px) {
+      .GN-Repush__section2 h2 {
+        margin-bottom: 5rem; } }
+    @media (max-width: 767px) {
+      .GN-Repush__section2 h2 {
+        margin-bottom: 10.5rem; } }
+  @media (max-width: 767px) {
+    .GN-Repush__section2 .note-text--white {
+      text-align: right;
+      color: #fff; } }
+  @media (max-width: 767px) {
+    .GN-Repush__section2 .col {
+      padding-left: 6rem; } }
   .GN-Repush__section2 .col1 {
     text-align: right;
     padding-right: 6rem;
     background-image: url(../images/sec2-text-deco_pc_01.png);
     background-position: 0 1rem;
     background-size: contain; }
+    @media (max-width: 767px) {
+      .GN-Repush__section2 .col1 {
+        background-image: url(../images/sec2-text-deco_mb_01.png);
+        background-position: 0 3rem;
+        text-align: left;
+        padding-right: 0; } }
   .GN-Repush__section2 .col2 {
     text-align: left;
     padding-left: 6rem;
@@ -1823,6 +1939,17 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     background-position: 0 11rem;
     background-size: contain;
     padding-top: 5rem; }
+    @media (max-width: 1024px) {
+      .GN-Repush__section2 .col2 {
+        background-position: 0 8rem;
+        padding-top: 3rem; } }
+    @media (max-width: 767px) {
+      .GN-Repush__section2 .col2 {
+        background-image: url(../images/sec2-text-deco_mb_01.png);
+        padding-top: 2rem;
+        background-position: 0 4.5rem; } }
+    .GN-Repush__section2 .col2 .note-text {
+      text-align: left; }
   .GN-Repush__section2 .sec2-main-text {
     color: #5ebee4;
     line-height: 1.2; }
@@ -1832,25 +1959,40 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   .GN-Repush__section2 .col5,
   .GN-Repush__section2 .col6 {
     width: 20rem; }
-    .GN-Repush__section2 .col4 h3,
-    .GN-Repush__section2 .col5 h3,
-    .GN-Repush__section2 .col6 h3 {
+    @media (max-width: 767px) {
+      .GN-Repush__section2 .col4,
+      .GN-Repush__section2 .col5,
+      .GN-Repush__section2 .col6 {
+        width: 15rem; } }
+    .GN-Repush__section2 .col4 .sec2-main-text2,
+    .GN-Repush__section2 .col5 .sec2-main-text2,
+    .GN-Repush__section2 .col6 .sec2-main-text2 {
       color: #5ebee4; }
   .GN-Repush__section2 .col5 {
     text-align: left; }
   .GN-Repush__section2 .col4,
   .GN-Repush__section2 .col6 {
     text-align: right; }
+  @media (max-width: 767px) {
+    .GN-Repush__section2 .col5,
+    .GN-Repush__section2 .col6 {
+      margin-top: -5rem; } }
   .GN-Repush__section2 .percentage {
     height: 3.87rem;
     width: auto;
     display: inline-block; }
+    @media (max-width: 1024px) {
+      .GN-Repush__section2 .percentage {
+        height: 3rem; } }
   .GN-Repush__section2 .text-underline {
     display: inline-block;
     border-bottom: solid 3px #5ebee4; }
 
 .GN-Repush__section3__bg-img {
   background-image: url(../images/GN-Repush-2005_pc_bg_03.jpg); }
+  @media (max-width: 767px) {
+    .GN-Repush__section3__bg-img {
+      background-image: url(../images/GN-Repush-2005_mb_bg_03.jpg); } }
 
 .GN-Repush__section3__content {
   top: 5.87rem;
@@ -1859,38 +2001,128 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   text-align: center; }
   .GN-Repush__section3__content .col {
     width: 22%; }
+    @media (max-width: 767px) {
+      .GN-Repush__section3__content .col {
+        width: 45%; } }
+  .GN-Repush__section3__content .col1,
+  .GN-Repush__section3__content .col2,
+  .GN-Repush__section3__content .col3 {
+    margin-right: 1rem; }
+  @media (max-width: 767px) {
+    .GN-Repush__section3__content .col {
+      margin-right: 0.5rem;
+      margin-left: 0.5rem; } }
+  @media (max-width: 767px) {
+    .GN-Repush__section3__content .col3,
+    .GN-Repush__section3__content .col4 {
+      margin-top: 3rem; } }
   .GN-Repush__section3__content .step-gif {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 6.5rem; }
+    @media (max-width: 1024px) {
+      .GN-Repush__section3__content .step-gif {
+        margin-top: 5rem; } }
+    @media (max-width: 767px) {
+      .GN-Repush__section3__content .step-gif {
+        margin-top: 7.5rem; } }
+
+@media (max-width: 767px) {
+  .GN-Repush__section3__col-container {
+    padding-right: 2rem;
+    padding-left: 2rem; } }
 
 .GN-Repush__section4 {
   color: #fff; }
   .GN-Repush__section4__bg-img {
     background-image: url(../images/GN-Repush-2005_pc_bg_04.jpg); }
+    @media (max-width: 767px) {
+      .GN-Repush__section4__bg-img {
+        background-image: url(../images/GN-Repush-2005_mb_bg_04.jpg); } }
   .GN-Repush__section4__1plus1 {
     width: 6.8rem;
     height: auto; }
+    @media (max-width: 767px) {
+      .GN-Repush__section4__1plus1 {
+        width: 8.8rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section4__1plus1 {
+        width: 6.8rem; } }
   .GN-Repush__section4__content {
     top: 5.87rem;
     left: 10rem;
     right: 10rem;
     text-align: center; }
-    .GN-Repush__section4__content .col {
-      margin-top: 20rem; }
-      .GN-Repush__section4__content .col .title {
-        font-size: 1.4375rem;
-        font-weight: bold; }
-      .GN-Repush__section4__content .col .name {
-        font-size: 1.3125rem;
-        color: #2c4157; }
-      .GN-Repush__section4__content .col .price {
-        font-size: 1rem;
-        color: #2c4157; }
+    @media (max-width: 1024px) {
+      .GN-Repush__section4__content {
+        left: 7rem;
+        right: 7rem; } }
+    @media (max-width: 767px) {
+      .GN-Repush__section4__content {
+        left: 3rem;
+        right: 3rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section4__content {
+        left: 0rem;
+        right: 0rem;
+        top: 2.8rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section4__content .col {
+        margin-right: 0.5rem;
+        margin-left: 0.5rem; } }
+    .GN-Repush__section4__content .col .title {
+      font-size: 1.4375rem;
+      font-weight: bold; }
+      @media (max-width: 1024px) {
+        .GN-Repush__section4__content .col .title {
+          font-size: 1.1375rem; } }
+      @media (max-width: 767px) {
+        .GN-Repush__section4__content .col .title {
+          font-size: 1.875rem; } }
+      @media (max-width: 414px) {
+        .GN-Repush__section4__content .col .title {
+          font-size: 1.125rem; } }
+    .GN-Repush__section4__content .col .name {
+      font-size: 1.3125rem;
+      color: #2c4157; }
+      @media (max-width: 1024px) {
+        .GN-Repush__section4__content .col .name {
+          font-size: 1.0125rem; } }
+      @media (max-width: 767px) {
+        .GN-Repush__section4__content .col .name {
+          font-size: 1.75rem; } }
+      @media (max-width: 414px) {
+        .GN-Repush__section4__content .col .name {
+          font-size: 1rem; } }
+    .GN-Repush__section4__content .col .price {
+      font-size: 1rem;
+      color: #2c4157; }
+      @media (max-width: 767px) {
+        .GN-Repush__section4__content .col .price {
+          font-size: 1.5625rem; } }
+      @media (max-width: 414px) {
+        .GN-Repush__section4__content .col .price {
+          font-size: 0.875rem; } }
+  .GN-Repush__section4__container {
+    margin-top: 20rem; }
+    @media (max-width: 1024px) {
+      .GN-Repush__section4__container {
+        margin-top: 13rem; } }
+    @media (max-width: 767px) {
+      .GN-Repush__section4__container {
+        margin-top: 38rem; } }
+    @media (max-width: 414px) {
+      .GN-Repush__section4__container {
+        margin-top: 15.8rem; } }
+    .GN-Repush__section4__container .col2 {
+      margin-top: 2rem; }
 
 .GN-Repush__section5__bg-img {
   background-image: url(../images/GN-Repush-2005_pc_bg_05.jpg); }
+  @media (max-width: 767px) {
+    .GN-Repush__section5__bg-img {
+      background-image: url(../images/GN-Repush-2005_mb_bg_05.jpg); } }
 
 .GN-Repush__section5__content {
   top: 5.87rem;

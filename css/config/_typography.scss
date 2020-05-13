@@ -9,34 +9,106 @@ $base-line-height: 1.5;
   @return ($unit / $base-font-size) * 1rem;
 }
 
-$font-xxl: toRem(60px); 
-$font-xl: toRem(40px); 
-$font-l: toRem(30px); 
+$font-xxl: toRem(60px);
+$font-xl: toRem(40px);
+$font-l: toRem(30px);
 $font-m: toRem(25px);
 $font-ms: toRem(22px);
 $font-s: toRem(18px);
 $font-ss: toRem(16px);
 $font-xs: toRem(11px);
 
-h2{
+$font-xxl-mb: toRem(60px);
+$font-xl-mb: toRem(40px);
+$font-l-mb: toRem(38px);
+$font-m-mb: toRem(28px);
+$font-ms-mb: toRem(22px);
+$font-s-mb: toRem(18px);
+$font-ss-mb: toRem(16px);
+$font-xs-mb: toRem(11px);
+
+h2 {
   font-size: $font-xl;
   font-weight: bold;
+  @include desktop-1024 {
+    font-size: $font-xl - 0.3;
+  }
+  @include pad-767 {
+    font-size: $font-xxl;
+  }
+  @include mobile-414 {
+    font-size: $font-xl;
+  }
 }
-h3{
+h3 {
   font-size: $font-l;
   font-weight: bold;
+  @include desktop-1024 {
+    font-size: $font-l - 0.3;
+  }
+  @include pad-767 {
+    font-size: $font-l-mb;
+  }
+  @include mobile-414 {
+    font-size: $font-l;
+  }
 }
-.sec2-main-text{
+.sec2-main-text {
   font-size: $font-xl;
+  font-weight: bold;
+  @include desktop-1024 {
+    font-size: $font-xl - 0.3;
+  }
+  @include pad-767 {
+    font-size: $font-xl;
+  }
+  @include mobile-414 {
+    font-size: $font-m-mb;
+  }
 }
-.content-text{
+.sec2-main-text2 {
+  font-size: $font-l;
+  @include desktop-1024 {
+    font-size: $font-l - 0.3;
+  }
+  @include pad-767 {
+    font-size: $font-l;
+  }
+}
+.content-text {
   font-size: $font-m;
+  @include desktop-1024 {
+    font-size: $font-m - 0.3;
+  }
 }
-.span-text{
+.content-text-product {
+  font-size: $font-m;
+  @include desktop-1024 {
+    font-size: $font-m - 0.3;
+  }
+  @include pad-767 {
+    font-size: $font-l;
+  }
+}
+.span-text {
   font-size: $font-m - 0.5;
+  @include desktop-1024 {
+    font-size: $font-m - 0.8;
+  }
+  @include pad-767 {
+    font-size: $font-l - 0.5;
+  }
 }
-.note-text{
+.note-text {
   font-size: $font-xs;
+  @include desktop-1024 {
+    font-size: $font-xs - 0.8;
+  }
+  @include pad-767 {
+    font-size: 9px;
+    -webkit-transform: scale(0.75);
+    // display: inline-block;
+  }
 }
 
 .html {
