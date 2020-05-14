@@ -9,7 +9,7 @@
  */
     /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
     /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-    font-family: "敺株��迤暺煾��", "Microsoft JhengHei", sans-serif;
+    font-family: "�𤊄�阸嚙踝蕭餈斗𠓗�橘蕭嚙�", "Microsoft JhengHei", sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #000;
@@ -5906,7 +5906,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 }
 
 #loreal-compaign .breadcrumb>li+li:before {
-    content: "/��";
+    content: "/嚙踝蕭";
     padding: 0 5px;
     color: #ccc
 }
@@ -11654,12 +11654,12 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     -moz-background-size: cover;
     background-size: cover;
     margin-bottom: 30%;
-	height:500px;
-	position: relative;
+  height:500px;
+  position: relative;
     }
 @media (min-width:768px) {
 #loreal-compaign .ll-page-eyegen--kv--ice{
-	height:900px;
+  height:900px;
     }
 }
 @media (min-width:992px) {
@@ -11669,14 +11669,14 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     background-position: top;
     -moz-background-size: cover;
     background-size: cover;
-	padding-bottom:0%;
-	margin-bottom: 0;
-	height: 371px;
+  padding-bottom:0%;
+  margin-bottom: 0;
+  height: 371px;
     }
 }
 @media (min-width:1280px) {
 #loreal-compaign .ll-page-eyegen--kv--ice{
-	height:464px;
+  height:464px;
     }
 }
 #loreal-compaign .ll-bg--part2 {
@@ -11685,7 +11685,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     background-position: top;
     -moz-background-size: cover;
     background-size: cover;
-	height:1575px;
+  height:1575px;
     }
 @media (max-width:375px) {
 #loreal-compaign .ll-bg--part2 {
@@ -11694,7 +11694,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     background-position: top;
     -moz-background-size: cover;
     background-size: cover;
-	height:1420px;
+  height:1420px;
     }
 }
 @media (max-width:360px) {
@@ -11704,7 +11704,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     background-position: top;
     -moz-background-size: cover;
     background-size: cover;
-	height:1370px;
+  height:1370px;
     }
 }
 @media (max-width:320px) {
@@ -11714,12 +11714,12 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     background-position: top;
     -moz-background-size: cover;
     background-size: cover;
-	height:1300px;
+  height:1300px;
     }
 }
 @media (min-width:768px) {
     #loreal-compaign .ll-bg--part2 {
-		height:3000px;
+    height:3000px;
     }
 }
 @media (min-width:992px) {
@@ -11729,7 +11729,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         background-position: top;
         -moz-background-size: cover;
         background-size: cover;
-		height:1546px;
+    height:1546px;
     }
 }
 @media (min-width:1280px) {
@@ -11779,7 +11779,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         background-position: top;
         -moz-background-size: cover;
         background-size: cover;
-		height:884px;
+    height:884px;
     }
 }
 #loreal-compaign .ll-bg--part4 {
@@ -11788,11 +11788,11 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     background-position: top;
     -moz-background-size: cover;
     background-size:cover;
-	padding-bottom: 20%;
+  padding-bottom: 20%;
 }
 @media (min-width:768px) {
     #loreal-compaign .ll-bg--part4 {
-		height:1100px;
+    height:1100px;
     }
 }
 @media (min-width:992px) {
@@ -11802,7 +11802,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         background-position: top;
         -moz-background-size:  cover;
         background-size:  cover;
-		height:940px;
+    height:940px;
     }
 }
 
@@ -11814,7 +11814,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     -moz-background-size: cover;
     background-size: cover;
     padding-bottom: 0%;
-	position:relative;
+  position:relative;
 }
 @media (min-width:768px) {
     #loreal-compaign .ll-bg--o2o {
@@ -11823,7 +11823,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         background-position: top;
         -moz-background-size: cover;
         background-size: cover;
-		height:1600px;
+    height:1600px;
     }
 }
 
@@ -11834,7 +11834,13 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         background-position: top;
         -moz-background-size: cover;
         background-size: cover;
-		height:967px;
+    height:967px;
+    }
+}
+
+@media (max-width:375px) {
+    #loreal-compaign .ll-bg--o2o {
+          background-size: 122%;
     }
 }
 
@@ -11844,7 +11850,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     background-position: top;
     -moz-background-size: cover;
     background-size: cover;
-	padding-bottom: 0%;
+  padding-bottom: 0%;
 }
 
 @media (min-width:992px) {
@@ -11854,7 +11860,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         background-position: top;
         -moz-background-size: cover;
         background-size: cover;
-		height:1050px;
+    height:1050px;
     }
 }
 
@@ -12450,7 +12456,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         position: relative;
         left: 187px;
         display: block;
-		top:70px;
+    top:70px;
     }
 }
 @media (min-width:1280px) {
@@ -12460,7 +12466,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         position: relative;
         left: 210px;
         display: block;
-		top:100px;
+    top:100px;
     }
 }
 #loreal-compaign .ll-img--ice {
@@ -12525,13 +12531,13 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 }
 
 @media (min-width:414px) {
-	#loreal-compaign .ll-img--prod {margin: 100px auto 0 40px;}
+  #loreal-compaign .ll-img--prod {margin: 100px auto 0 40px;}
 }
 @media (min-width:768px) {
     #loreal-compaign .ll-img--prod {
         width: 485px;
         height: 485px;
-	   margin: 100px auto 0;	
+     margin: 100px auto 0;  
     }
 }
 
@@ -12573,12 +12579,12 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 @media (max-width:414px) {
 #loreal-compaign .ll-img--eye {
     maefun-left:-5px;
-}	
+} 
 }
 @media (max-width:360px) {
 #loreal-compaign .ll-img--eye {
     width: 130px;
-}	
+} 
 }
 @media only screen and (max-width:320px) {
     #loreal-compaign .ll-img--eye {
@@ -12599,7 +12605,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     #loreal-compaign .ll-img--eye {
         width: 210px;
         height: 119px;
-		margin-left:30px;
+    margin-left:30px;
     }
 }
 
@@ -12658,7 +12664,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 
 #loreal-compaign .ll-page-eyegen {
     overflow: hidden;
-    font-family: "敺株��迤暺煾��", "Microsoft JhengHei", sans-serif;
+    font-family: "�𤊄�阸嚙踝蕭餈斗𠓗�橘蕭嚙�", "Microsoft JhengHei", sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #fff;
@@ -12694,7 +12700,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 @media (min-width:992px) {
     #loreal-compaign .ll-page-eyegen--kv--title {
         font-size: 32px;
-		color:#fff;
+    color:#fff;
     }
 }
 
@@ -12752,7 +12758,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     #loreal-compaign .ll-page-eyegen--kv--subtitle {
         font-size: 19.5px;
         margin-bottom: 5%;
-		color:#fff;
+    color:#fff;
     }
 }
 @media (min-width:1280px) {
@@ -12904,7 +12910,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     #loreal-compaign .ll-page-eyegen--kv--prod {
         font-size: 21.5px;
         letter-spacing: -0.001em;margin-top: -20px;
-		color:#fff;
+    color:#fff;
     }
 }
 @media (min-width:1280px) {
@@ -12955,13 +12961,13 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 @media (min-width:992px) {
     #loreal-compaign .ll-page-eyegen--kv--main {
         margin-top: 70px;
-		margin-left:30px;
+    margin-left:30px;
     }
 }
 @media (min-width:1280px) {
     #loreal-compaign .ll-page-eyegen--kv--main {
         margin-top: 120px;
-		margin-left:40px;
+    margin-left:40px;
     }
 }
 @media only screen and (max-width:375px) {
@@ -12996,15 +13002,15 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         font-size: 18px;
         top: -20px
     }
-	#loreal-compaign .ll-page-eyegen--title {
+  #loreal-compaign .ll-page-eyegen--title {
     color: #fff;
 }
 }
 
 #loreal-compaign .ll-page-eyegen--title--main {
     font-size: 33px;
-	border-bottom: solid 1px #fff;
-	margin-top: 30px;
+  border-bottom: solid 1px #fff;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width:375px) {
@@ -13026,9 +13032,9 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 @media (min-width:768px) {
     #loreal-compaign .ll-page-eyegen--title--main {
         font-size: 42px;
-		margin-bottom: 0;
-		max-width: 500px;
-		margin: 30px auto 0 auto;	
+    margin-bottom: 0;
+    max-width: 500px;
+    margin: 30px auto 0 auto; 
     }
 }
 
@@ -13036,8 +13042,8 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     #loreal-compaign .ll-page-eyegen--title--main {
         font-size: 40px;
         margin-bottom: 0;
-		max-width: 500px;
-        margin: 30px auto 0 auto;	
+    max-width: 500px;
+        margin: 30px auto 0 auto; 
     }
 }
 
@@ -13192,7 +13198,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 #loreal-compaign .ll-page-eyegen--title--info {
     font-size: 21px;
     font-weight: 700;
-	text-align: left;
+  text-align: left;
 }
 
 @media only screen and (max-width:320px) {
@@ -13277,7 +13283,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 @media (min-width:768px) {
     #loreal-compaign .ll-page-eyegen--title--bom {
         font-size: 30px;
-		color: #154381;
+    color: #154381;
     }
 }
 
@@ -13285,7 +13291,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     #loreal-compaign .ll-page-eyegen--title--bom {
         font-size: 24px;
         line-height: 130%;
-		color: #fff;
+    color: #fff;
     }
 }
 
@@ -13294,7 +13300,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     line-height: 130%;
     font-weight: 700;
     position: relative;
-	color:#154381;
+  color:#154381;
 }
 
 @media only screen and (max-width:375px) {
@@ -13336,7 +13342,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 
 #loreal-compaign .ll-page-eyegen--subtitle--main {
     font-size: 24px;
-	color:#fff;	
+  color:#fff; 
 }
 
 @media only screen and (max-width:375px) {
@@ -13405,8 +13411,8 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     text-align: left;
     line-height: 150%;
     font-size: 17px;
-	color: #fff;
-	margin-bottom:50px;
+  color: #fff;
+  margin-bottom:50px;
 }
 
 @media only screen and (max-width:375px) {
@@ -13468,7 +13474,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 }
 #loreal-compaign .ll-page-eyegen--text--o2o {
     line-height: 160%;
-	color: #fff;
+  color: #fff;
 }
 
 
@@ -13495,7 +13501,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 #loreal-compaign .ll-page-eyegen--text--rule li {
     list-style: disc;
     line-height: 160%;
-	color:#fff;
+  color:#fff;
 }
 
 @media only screen and (max-width:375px) {
@@ -13517,12 +13523,12 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 @media (min-width:768px) {
     #loreal-compaign .ll-page-eyegen--text--family {
         font-size: 20px;
-		color: #000;
+    color: #000;
     }
 }
 @media (min-width:992px) {
     #loreal-compaign .ll-page-eyegen--text--family {
-	font-size: 18px;	
+  font-size: 18px;  
      color: #fff;
     }
 }
@@ -13531,7 +13537,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     text-align: center;
     font-weight: 700;
     line-height: 150%;
-	color:#000;
+  color:#000;
 }
 
 @media only screen and (max-width:375px) {
@@ -13620,14 +13626,14 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 
 #loreal-compaign .ll-page-eyegen--notice--part2 {
     text-align: left;
-	margin-left:20px;
-	color: #424141;
+  margin-left:20px;
+  color: #424141;
 }
 @media (min-width:768px) {
 #loreal-compaign .ll-page-eyegen--notice--part2 {
     margin: 10px 100px;
-	font-size: 14px;
-	line-height:160%!important;
+  font-size: 14px;
+  line-height:160%!important;
 }
 }
 @media (min-width:992px) {
@@ -13638,7 +13644,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 }
 #loreal-compaign .ll-page-eyegen--area--info>div {
     /*width: 90%;*/
-	text-align: left;
+  text-align: left;
 }
 
 #loreal-compaign .ll-page-eyegen--area--eye {
@@ -13708,10 +13714,10 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         left: -15%;
         position: relative;
     }
-#loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(2) .ll-img--eye {	
-	 margin: 10px auto 13px;
+#loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(2) .ll-img--eye { 
+   margin: 10px auto 13px;
     margin-left:0px;
-}	
+} 
 }
 
 #loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(3) .ll-img--eye {
@@ -13725,27 +13731,27 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 }
 @media (min-width:320px) {
 #loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(2) .ll-img--eye {
-	margin-left:-5px;
-	}	
+  margin-left:-5px;
+  } 
 #loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(3) .ll-img--eye {
-	margin-left:-5px;
-	}
+  margin-left:-5px;
+  }
 }
 @media (min-width:360px) {
 #loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(2) .ll-img--eye {
-	margin-left:-10px;
-	}	
+  margin-left:-10px;
+  } 
 #loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(3) .ll-img--eye {
-	margin-left:-5px;
-	}
+  margin-left:-5px;
+  }
 }
 @media (max-width:414px) {
 #loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(2) .ll-img--eye {
-	margin-left:-10px;
-	}	
+  margin-left:-10px;
+  } 
 #loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(3) .ll-img--eye {
-	margin-left:-10px;
-	}
+  margin-left:-10px;
+  }
 }
 
 @media (min-width:992px) {
@@ -13754,18 +13760,28 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         position: relative
     }
 #loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(3) .ll-img--eye {
-	margin-left:-130px;
-	}
+  margin-left:-130px;
+  }
 }
 @media (min-width:1280px) {
 #loreal-compaign .ll-page-eyegen--area--eye>div:nth-child(3) .ll-img--eye {
-	margin-left:-230px;
-	}
+  margin-left:-230px;
+  }
 }
 
 #loreal-compaign .ll-page-eyegen--area--form {
     padding: 12px;
     margin-top: 250px;
+}
+@media (max-width:414px) {
+#loreal-compaign .ll-page-eyegen--area--form {
+     margin-top: 140px;
+    }
+}
+@media (max-width:375px) {
+#loreal-compaign .ll-page-eyegen--area--form {
+    margin-top: 50%;
+    }
 }
 @media (max-width:320px) {
 #loreal-compaign .ll-page-eyegen--area--form {
@@ -13823,7 +13839,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     #loreal-compaign .ll-page-eyegen--new {
         top: 26%;
         right: 5%;
-		left:5%;
+    left:5%;
     }
 }
 @media (min-width:768px) {
@@ -13832,10 +13848,10 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
         height: 80px;
         line-height: 60px;
         font-size:24px;
-		padding-top: 1%;
+    padding-top: 1%;
         top: 8%;
         right: 28%
-			
+      
     }
 }
 
@@ -13857,25 +13873,25 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     #loreal-compaign .ll-page-eyegen--new--bom {
         top: 27%;
         right: 17%;
-		left: 5%;	
+    left: 5%; 
     }
 }
 @media only screen and (min-width:360px) {
     #loreal-compaign .ll-page-eyegen--new--bom {
-		left: 5%;	
+    left: 5%; 
     }
 }
 @media only screen and (min-width:414px) {
     #loreal-compaign .ll-page-eyegen--new--bom {
-		left: 10%;	
+    left: 10%;  
     }
 }
 @media (min-width:768px) {
     #loreal-compaign .ll-page-eyegen--new--bom {
         top: 30%;
         right: 25%;
-		left: 15%;	
-		font-size: 23px;
+    left: 15%;  
+    font-size: 23px;
     }
 }
 
@@ -13883,7 +13899,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     #loreal-compaign .ll-page-eyegen--new--bom {
         top: 15%;
         left: 25%;
-		 padding-top: 9px;
+     padding-top: 9px;
         font-size: 21px;
     }
 }
@@ -13926,8 +13942,8 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 @media (min-width:768px) {
     #loreal-compaign .ll-page-eyegen--new--family {
         right: 13%;
-		font-size: 23px;
-		left: 63%;
+    font-size: 23px;
+    left: 63%;
     }
 }
 
@@ -13935,7 +13951,7 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
     #loreal-compaign .ll-page-eyegen--new--family {
         top: 20%;
         left: 66%;
-		font-size: 21px;
+    font-size: 21px;
     }
 }
 @media (min-width:1280px) {
@@ -13945,27 +13961,27 @@ fieldset[disabled] #loreal-compaign .navbar-inverse .btn-link:hover {
 }
 #loreal-compaign .ll-page-eyegen .info1 {
     float: left;
-	margin-left:29%;
+  margin-left:29%;
 }
 @media (min-width:768px) {
 #loreal-compaign .ll-page-eyegen .info1 {
 margin-bottom: 70px;
-margin-left:30%;	
+margin-left:30%;  
     }
 }
 @media (min-width:992px) {
 #loreal-compaign .ll-page-eyegen .info1 {
         position: absolute;
-	    width:40%;
-		margin-left: -140px;
+      width:40%;
+    margin-left: -140px;
         margin-top: -230px;
     }
 }
 @media (min-width:1280px) {
 #loreal-compaign .ll-page-eyegen .info1 {
-	    width:40%;
-		margin-left: -170px;
-	   margin-top: -90px;
+      width:40%;
+    margin-left: -170px;
+     margin-top: -90px;
     }
 }
 /*@media (min-width:992px) {
@@ -13986,7 +14002,7 @@ margin-left:30%;
 
 #loreal-compaign .ll-page-eyegen .info2 {
     float: none;
-	margin-left:29%;
+  margin-left:29%;
 }
 @media (min-width:375px) {
 #loreal-compaign .ll-page-eyegen .info2 {
@@ -13996,14 +14012,14 @@ margin-top:-5px;
 @media (min-width:768px) {
 #loreal-compaign .ll-page-eyegen .info2 {
 margin-top:30px;
-margin-left:30%;	
+margin-left:30%;  
 }
 }
 @media (min-width:992px) {
     #loreal-compaign .ll-page-eyegen .info2 {
         float: none;
         margin: 0;
-		width:40%;
+    width:40%;
         position: absolute;
         top: 290px;
         right: -125px;
@@ -14072,18 +14088,18 @@ margin-left:30%;
 
 #loreal-compaign .ll-page-eyegen .info3 {
     float: left;
-	margin-left:29%;
+  margin-left:29%;
 }
 @media (max-width:375px) {
-#loreal-compaign .ll-page-eyegen .info3 {	
-	margin-top:-20px;
-	}
+#loreal-compaign .ll-page-eyegen .info3 { 
+  margin-top:-20px;
+  }
 }
 @media (min-width:768px) {
-#loreal-compaign .ll-page-eyegen .info3 {	
-	margin-top:60px;
-	margin-left:30%;
-	}
+#loreal-compaign .ll-page-eyegen .info3 { 
+  margin-top:60px;
+  margin-left:30%;
+  }
 }
 @media (min-width:992px) {
     #loreal-compaign .ll-page-eyegen .info3 {
@@ -14313,8 +14329,8 @@ margin-left:30%;
 @media (min-width:992px) {
     #loreal-compaign .ll-page-eyegen .moveo2o {
         margin-left: 12%;
-		width:40%;
-		margin-top:20px;
+    width:40%;
+    margin-top:20px;
     }
 }
 
@@ -14329,7 +14345,7 @@ margin-left:30%;
 @media (min-width:768px) {
     #loreal-compaign .ll-page-eyegen .movefamily {
         margin-left: -260px;
-		margin-top: 6%;
+    margin-top: 6%;
     }
 }
 
@@ -14604,7 +14620,7 @@ margin-left:30%;
     padding: 4px 10px;
     width: 100%;
     max-width: 100%;
-	color:#000;
+  color:#000;
 }
 
 #loreal-compaign .ll-page-eyegen .event_content .answer7 {
@@ -14620,7 +14636,7 @@ margin-left:30%;
     font-size: 14px;
     padding-left: 5px;
     position: relative;
-	color:#fff;
+  color:#fff;
 }
 
 @media only screen and (max-width:320px) {
@@ -14673,14 +14689,14 @@ margin-left:30%;
     min-width: 138px;
     border: 1px solid #000;
     color: #fff;
-	background-color: #000;
+  background-color: #000;
 }
 
-@media only screen and (max-width:360px) {
+/* @media only screen and (max-width:360px) {
     #loreal-compaign .ll-page-eyegen .event_content .button_box button {
         margin: 10px 0
     }
-}
+} */
 
 #loreal-compaign .ll-page-eyegen .event_content .button_box button:focus,
 #loreal-compaign .ll-page-eyegen .event_content .button_box button:hover {
@@ -15581,2941 +15597,2941 @@ margin-left:30%;
 }
 
 .ion-alert:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-alert-circled:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-android-add:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-add-circle:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-alarm-clock:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-alert:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-apps:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-archive:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-arrow-back:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-arrow-down:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-arrow-dropdown:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-arrow-dropdown-circle:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-arrow-dropleft:before {
-    content: "�㨃"
+    content: "嚙賬�"
 }
 
 .ion-android-arrow-dropleft-circle:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-arrow-dropright:before {
-    content: "�揻"
+    content: "嚙賣衅"
 }
 
 .ion-android-arrow-dropright-circle:before {
-    content: "�揢"
+    content: "嚙賣𨘻"
 }
 
 .ion-android-arrow-dropup:before {
-    content: "�摚"
+    content: "嚙賣��"
 }
 
 .ion-android-arrow-dropup-circle:before {
-    content: "�搇"
+    content: "嚙賣��"
 }
 
 .ion-android-arrow-forward:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-arrow-up:before {
-    content: "�㩋"
+    content: "嚙賬��"
 }
 
 .ion-android-attach:before {
-    content: "�擀"
+    content: "嚙賣�"
 }
 
 .ion-android-bar:before {
-    content: "�崕"
+    content: "嚙賢��"
 }
 
 .ion-android-bicycle:before {
-    content: "�嘡"
+    content: "嚙賢咅"
 }
 
 .ion-android-boat:before {
-    content: "�龟"
+    content: "嚙賡��"
 }
 
 .ion-android-bookmark:before {
-    content: "�㪗"
+    content: "嚙賬��"
 }
 
 .ion-android-bulb:before {
-    content: "�斆"
+    content: "嚙賣�"
 }
 
 .ion-android-bus:before {
-    content: "�㪽"
+    content: "嚙賬直"
 }
 
 .ion-android-calendar:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-call:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-camera:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-cancel:before {
-    content: "�旿"
+    content: "嚙賣鍴"
 }
 
 .ion-android-car:before {
-    content: "�晓"
+    content: "嚙賣��"
 }
 
 .ion-android-cart:before {
-    content: "�㫲"
+    content: "嚙賬垓"
 }
 
 .ion-android-chat:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-checkbox:before {
-    content: "�㭂"
+    content: "嚙賬�"
 }
 
 .ion-android-checkbox-blank:before {
-    content: "�暒"
+    content: "嚙賣��"
 }
 
 .ion-android-checkbox-outline:before {
-    content: "�朖"
+    content: "嚙賣��"
 }
 
 .ion-android-checkbox-outline-blank:before {
-    content: "�㬢"
+    content: "嚙賬洽"
 }
 
 .ion-android-checkmark-circle:before {
-    content: "�枤"
+    content: "嚙賣䣳"
 }
 
 .ion-android-clipboard:before {
-    content: "�栀"
+    content: "嚙賣�"
 }
 
 .ion-android-close:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-cloud:before {
-    content: "�㭲"
+    content: "嚙賬革"
 }
 
 .ion-android-cloud-circle:before {
-    content: "�㭘"
+    content: "嚙賬��"
 }
 
 .ion-android-cloud-done:before {
-    content: "�桊"
+    content: "嚙賣��"
 }
 
 .ion-android-cloud-outline:before {
-    content: "�梄"
+    content: "嚙賣�"
 }
 
 .ion-android-color-palette:before {
-    content: "�㭱"
+    content: "嚙賬面"
 }
 
 .ion-android-compass:before {
-    content: "�㭻"
+    content: "嚙賬香"
 }
 
 .ion-android-contact:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-contacts:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-contract:before {
-    content: "�椉"
+    content: "嚙賣��"
 }
 
 .ion-android-create:before {
-    content: "�楃"
+    content: "嚙賣�"
 }
 
 .ion-android-delete:before {
-    content: "�牜"
+    content: "嚙賜��"
 }
 
 .ion-android-desktop:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-android-document:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-android-done:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-android-done-all:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-android-download:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-drafts:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-android-exit:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-android-expand:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-android-favorite:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-favorite-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-film:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-folder:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-folder-open:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-funnel:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-globe:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-hand:before {
-    content: "�𠾵"
+    content: "嚙踢聛�"
 }
 
 .ion-android-hangout:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-happy:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-home:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-image:before {
-    content: "�𠹻"
+    content: "嚙踢覔�"
 }
 
 .ion-android-laptop:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-list:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-locate:before {
-    content: "�𥋘"
+    content: "嚙踢���"
 }
 
 .ion-android-lock:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-mail:before {
-    content: "�𤧚"
+    content: "嚙踢之�"
 }
 
 .ion-android-map:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-menu:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-microphone:before {
-    content: "�𡠺"
+    content: "嚙踢�舚"
 }
 
 .ion-android-microphone-off:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-more-horizontal:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-more-vertical:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-navigate:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-notifications:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-notifications-none:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-notifications-off:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-open:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-options:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-people:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-person:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-person-add:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-android-phone-landscape:before {
-    content: "�繧"
+    content: "嚙賜鳩"
 }
 
 .ion-android-phone-portrait:before {
-    content: "�䔝"
+    content: "嚙賭��"
 }
 
 .ion-android-pin:before {
-    content: "�𦹄"
+    content: "嚙踢此�"
 }
 
 .ion-android-plane:before {
-    content: "�絝"
+    content: "嚙賜��"
 }
 
 .ion-android-playstore:before {
-    content: "�剨"
+    content: "嚙賢�"
 }
 
 .ion-android-print:before {
-    content: "�𦻖"
+    content: "嚙踢氖�"
 }
 
 .ion-android-radio-button-off:before {
-    content: "�璍"
+    content: "嚙賜��"
 }
 
 .ion-android-radio-button-on:before {
-    content: "�綉"
+    content: "嚙賜��"
 }
 
 .ion-android-refresh:before {
-    content: "�綫"
+    content: "嚙賜陲"
 }
 
 .ion-android-remove:before {
-    content: "�孨"
+    content: "嚙賢郃"
 }
 
 .ion-android-remove-circle:before {
-    content: "�焵"
+    content: "嚙賜��"
 }
 
 .ion-android-restaurant:before {
-    content: "�綳"
+    content: "嚙賜雲"
 }
 
 .ion-android-sad:before {
-    content: "�緒"
+    content: "嚙賜��"
 }
 
 .ion-android-search:before {
-    content: "�䠀"
+    content: "嚙賭�"
 }
 
 .ion-android-send:before {
-    content: "�䬬"
+    content: "嚙賭洵"
 }
 
 .ion-android-settings:before {
-    content: "�鼧"
+    content: "嚙賡憫"
 }
 
 .ion-android-share:before {
-    content: "�䧧"
+    content: "嚙賭壯"
 }
 
 .ion-android-share-alt:before {
-    content: "�𤁗"
+    content: "嚙踢��"
 }
 
 .ion-android-star:before {
-    content: "�𣄽"
+    content: "嚙踢��"
 }
 
 .ion-android-star-half:before {
-    content: "�𦀩"
+    content: "嚙踢��"
 }
 
 .ion-android-star-outline:before {
-    content: "�緤"
+    content: "嚙賜楔"
 }
 
 .ion-android-stopwatch:before {
-    content: "�嗻"
+    content: "嚙賢鉟"
 }
 
 .ion-android-subway:before {
-    content: "�㴓"
+    content: "嚙賬��"
 }
 
 .ion-android-sunny:before {
-    content: "�緵"
+    content: "嚙賜殿"
 }
 
 .ion-android-sync:before {
-    content: "�𡟹"
+    content: "嚙踢�畺"
 }
 
 .ion-android-textsms:before {
-    content: "�緥"
+    content: "嚙賜極"
 }
 
 .ion-android-time:before {
-    content: "�𨍭"
+    content: "嚙踢�㪽"
 }
 
 .ion-android-train:before {
-    content: "�縝"
+    content: "嚙賜��"
 }
 
 .ion-android-unlock:before {
-    content: "�𦄡"
+    content: "嚙踢��"
 }
 
 .ion-android-upload:before {
-    content: "�𦅚"
+    content: "嚙踢��"
 }
 
 .ion-android-volume-down:before {
-    content: "�繮"
+    content: "嚙賜僥"
 }
 
 .ion-android-volume-mute:before {
-    content: "�纒"
+    content: "嚙賜��"
 }
 
 .ion-android-volume-off:before {
-    content: "�䌫"
+    content: "嚙賭𤨓"
 }
 
 .ion-android-volume-up:before {
-    content: "�鑬"
+    content: "嚙賡麞"
 }
 
 .ion-android-walk:before {
-    content: "�縧"
+    content: "嚙賜葷"
 }
 
 .ion-android-warning:before {
-    content: "�罀"
+    content: "嚙賜�"
 }
 
 .ion-android-watch:before {
-    content: "�罁"
+    content: "嚙賜�"
 }
 
 .ion-android-wifi:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-aperture:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-archive:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-down-a:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-down-b:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-down-c:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-expand:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-arrow-graph-down-left:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-arrow-graph-down-right:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-arrow-graph-up-left:before {
-    content: "�琑"
+    content: "嚙賜��"
 }
 
 .ion-arrow-graph-up-right:before {
-    content: "�糼"
+    content: "嚙賜頃"
 }
 
 .ion-arrow-left-a:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-left-b:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-left-c:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-move:before {
-    content: "�緍"
+    content: "嚙賜��"
 }
 
 .ion-arrow-resize:before {
-    content: "�楆"
+    content: "嚙賣�"
 }
 
 .ion-arrow-return-left:before {
-    content: "�竉"
+    content: "嚙賜��"
 }
 
 .ion-arrow-return-right:before {
-    content: "�刧"
+    content: "嚙賢ê"
 }
 
 .ion-arrow-right-a:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-right-b:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-right-c:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-shrink:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-swap:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-up-a:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-up-b:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-arrow-up-c:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-asterisk:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-at:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-backspace:before {
-    content: "�礶"
+    content: "嚙賜介"
 }
 
 .ion-backspace-outline:before {
-    content: "�罇"
+    content: "嚙賜��"
 }
 
 .ion-bag:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-battery-charging:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-battery-empty:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-battery-full:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-battery-half:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-battery-low:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-beaker:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-beer:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-bluetooth:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-bonfire:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-bookmark:before {
-    content: "�醌"
+    content: "嚙賡��"
 }
 
 .ion-bowtie:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-briefcase:before {
-    content: "�碸"
+    content: "嚙賜９"
 }
 
 .ion-bug:before {
-    content: "�膪"
+    content: "嚙質��"
 }
 
 .ion-calculator:before {
-    content: "�酞"
+    content: "嚙賡��"
 }
 
 .ion-calendar:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-camera:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-card:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-cash:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-chatbox:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-chatbox-working:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-chatboxes:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-chatbubble:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-chatbubble-working:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-chatbubbles:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-checkmark:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-checkmark-circled:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-checkmark-round:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-chevron-down:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-chevron-left:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-chevron-right:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-chevron-up:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-clipboard:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-clock:before {
-    content: "�肼"
+    content: "嚙質��"
 }
 
 .ion-close:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-close-circled:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-close-round:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-closed-captioning:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-cloud:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-code:before {
-    content: "�胶"
+    content: "嚙質��"
 }
 
 .ion-code-download:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-code-working:before {
-    content: "�贋"
+    content: "嚙質��"
 }
 
 .ion-coffee:before {
-    content: "�𠧧"
+    content: "嚙踢𡵆�"
 }
 
 .ion-compass:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-compose:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-connection-bars:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-contrast:before {
-    content: "�肟"
+    content: "嚙質��"
 }
 
 .ion-crop:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-cube:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-disc:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-document:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-document-text:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-drag:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-earth:before {
-    content: "�黇"
+    content: "嚙賡��"
 }
 
 .ion-easel:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-edit:before {
-    content: "�飵"
+    content: "嚙賡ㄤ"
 }
 
 .ion-egg:before {
-    content: "�䳍"
+    content: "嚙賭��"
 }
 
 .ion-eject:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-email:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-email-unread:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-erlenmeyer-flask:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-erlenmeyer-flask-bubbles:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-eye:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-eye-disabled:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-female:before {
-    content: "�鷉"
+    content: "嚙賡��"
 }
 
 .ion-filing:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-film-marker:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-fireball:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-flag:before {
-    content: "�鸌"
+    content: "嚙賡��"
 }
 
 .ion-flame:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-flash:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-flash-off:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-folder:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-fork:before {
-    content: "�䰾"
+    content: "嚙賭偏"
 }
 
 .ion-fork-repo:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-forward:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-funnel:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-gear-a:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-gear-b:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-grid:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-hammer:before {
-    content: "�𩷶"
+    content: "嚙踢弧�"
 }
 
 .ion-happy:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-happy-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-headphone:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-heart:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-heart-broken:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-help:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-help-buoy:before {
-    content: "�𧀎"
+    content: "嚙踢��"
 }
 
 .ion-help-circled:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-home:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-icecream:before {
-    content: "�鸊"
+    content: "嚙賡��"
 }
 
 .ion-image:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-images:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-information:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-information-circled:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ionic:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-alarm:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-alarm-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-albums:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-albums-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-americanfootball:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-americanfootball-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-analytics:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-analytics-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-back:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-down:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-forward:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-left:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-right:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-thin-down:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-thin-left:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-thin-right:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-thin-up:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-arrow-up:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-at:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-at-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-barcode:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-barcode-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-baseball:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-baseball-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-basketball:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-basketball-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-bell:before {
-    content: "�𨘻"
+    content: "嚙踢�獈"
 }
 
 .ion-ios-bell-outline:before {
-    content: "�𨘥"
+    content: "嚙踢�坾"
 }
 
 .ion-ios-body:before {
-    content: "�𧂈"
+    content: "嚙踢��"
 }
 
 .ion-ios-body-outline:before {
-    content: "�藁"
+    content: "嚙質�"
 }
 
 .ion-ios-bolt:before {
-    content: "�𡖂"
+    content: "嚙踢��"
 }
 
 .ion-ios-bolt-outline:before {
-    content: "�蘂"
+    content: "嚙質�"
 }
 
 .ion-ios-book:before {
-    content: "�䕫"
+    content: "嚙踢祕�"
 }
 
 .ion-ios-book-outline:before {
-    content: "�𧃍"
+    content: "嚙踢��"
 }
 
 .ion-ios-bookmarks:before {
-    content: "�蘨"
+    content: "嚙質㿥"
 }
 
 .ion-ios-bookmarks-outline:before {
-    content: "�䕪"
+    content: "嚙賭𧞅"
 }
 
 .ion-ios-box:before {
-    content: "�𡢢"
+    content: "嚙踢﹜�"
 }
 
 .ion-ios-box-outline:before {
-    content: "�㙈"
+    content: "嚙賬��"
 }
 
 .ion-ios-briefcase:before {
-    content: "�𧎚"
+    content: "嚙踢���"
 }
 
 .ion-ios-briefcase-outline:before {
-    content: "�号"
+    content: "嚙賢噡"
 }
 
 .ion-ios-browsers:before {
-    content: "�蝱"
+    content: "嚙質𨭬"
 }
 
 .ion-ios-browsers-outline:before {
-    content: "�虾"
+    content: "嚙質蓡"
 }
 
 .ion-ios-calculator:before {
-    content: "�蟮"
+    content: "嚙質酙"
 }
 
 .ion-ios-calculator-outline:before {
-    content: "�𪃸"
+    content: "嚙踢��"
 }
 
 .ion-ios-calendar:before {
-    content: "�螱"
+    content: "嚙質鵐"
 }
 
 .ion-ios-calendar-outline:before {
-    content: "�𢰧"
+    content: "嚙踢１�"
 }
 
 .ion-ios-camera:before {
-    content: "�蠏"
+    content: "嚙質��"
 }
 
 .ion-ios-camera-outline:before {
-    content: "�蟚"
+    content: "嚙質��"
 }
 
 .ion-ios-cart:before {
-    content: "�虬"
+    content: "嚙質艔"
 }
 
 .ion-ios-cart-outline:before {
-    content: "�噡"
+    content: "嚙賢䐓"
 }
 
 .ion-ios-chatboxes:before {
-    content: "�䘏"
+    content: "嚙賭��"
 }
 
 .ion-ios-chatboxes-outline:before {
-    content: "�桖"
+    content: "嚙賣��"
 }
 
 .ion-ios-chatbubble:before {
-    content: "�衆"
+    content: "嚙質�"
 }
 
 .ion-ios-chatbubble-outline:before {
-    content: "�衅"
+    content: "嚙質�"
 }
 
 .ion-ios-checkmark:before {
-    content: "�𧗤"
+    content: "嚙踢�𠘚"
 }
 
 .ion-ios-checkmark-empty:before {
-    content: "�𧗠"
+    content: "嚙踢���"
 }
 
 .ion-ios-checkmark-outline:before {
-    content: "�𣶹"
+    content: "嚙踢ㄥ�"
 }
 
 .ion-ios-circle-filled:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-circle-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-clock:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-clock-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-close:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-close-empty:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-close-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-cloud:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cloud-download:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cloud-download-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cloud-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cloud-upload:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cloud-upload-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cloudy:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cloudy-night:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cloudy-night-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cloudy-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cog:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-cog-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-color-filter:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-color-filter-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-color-wand:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-color-wand-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-compose:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-compose-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-contact:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-contact-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-copy:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-copy-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-crop:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-crop-strong:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-download:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-download-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-drag:before {
-    content: "�𠴱"
+    content: "嚙踢聦�"
 }
 
 .ion-ios-email:before {
-    content: "�鍫"
+    content: "嚙賡㪗"
 }
 
 .ion-ios-email-outline:before {
-    content: "�錬"
+    content: "嚙賡嬕"
 }
 
 .ion-ios-eye:before {
-    content: "�𨯫"
+    content: "嚙踢辛�"
 }
 
 .ion-ios-eye-outline:before {
-    content: "�𨫡"
+    content: "嚙踢走�"
 }
 
 .ion-ios-fastforward:before {
-    content: "�嫃"
+    content: "嚙賢�"
 }
 
 .ion-ios-fastforward-outline:before {
-    content: "�炏"
+    content: "嚙賜��"
 }
 
 .ion-ios-filing:before {
-    content: "�𨫥"
+    content: "嚙踢走�"
 }
 
 .ion-ios-filing-outline:before {
-    content: "�𨫢"
+    content: "嚙踢走�"
 }
 
 .ion-ios-film:before {
-    content: "�鉄"
+    content: "嚙賡�"
 }
 
 .ion-ios-film-outline:before {
-    content: "�䥥"
+    content: "嚙賭孕"
 }
 
 .ion-ios-flag:before {
-    content: "�𨰹"
+    content: "嚙踢辰�"
 }
 
 .ion-ios-flag-outline:before {
-    content: "�𨯬"
+    content: "嚙踢辛�"
 }
 
 .ion-ios-flame:before {
-    content: "�鍳"
+    content: "嚙賡朖"
 }
 
 .ion-ios-flame-outline:before {
-    content: "�𨯿"
+    content: "嚙踢辛�"
 }
 
 .ion-ios-flask:before {
-    content: "�躼"
+    content: "嚙質獐"
 }
 
 .ion-ios-flask-outline:before {
-    content: "�鑛"
+    content: "嚙賡��"
 }
 
 .ion-ios-flower:before {
-    content: "�閦"
+    content: "嚙賡㵽"
 }
 
 .ion-ios-flower-outline:before {
-    content: "�閅"
+    content: "嚙賡�"
 }
 
 .ion-ios-folder:before {
-    content: "�閠"
+    content: "嚙賡��"
 }
 
 .ion-ios-folder-outline:before {
-    content: "�鐦"
+    content: "嚙賡炏"
 }
 
 .ion-ios-football:before {
-    content: "�䊹"
+    content: "嚙賭䎺"
 }
 
 .ion-ios-football-outline:before {
-    content: "�濶"
+    content: "嚙賣蕊"
 }
 
 .ion-ios-game-controller-a:before {
-    content: "�𨛘"
+    content: "嚙踢���"
 }
 
 .ion-ios-game-controller-a-outline:before {
-    content: "�𢙺"
+    content: "嚙踢�惣"
 }
 
 .ion-ios-game-controller-b:before {
-    content: "�𣸮"
+    content: "嚙踢ㄧ�"
 }
 
 .ion-ios-game-controller-b-outline:before {
-    content: "�𡉼"
+    content: "嚙踢�𧀎"
 }
 
 .ion-ios-gear:before {
-    content: "�氜"
+    content: "嚙賣��"
 }
 
 .ion-ios-gear-outline:before {
-    content: "�䧟"
+    content: "嚙賭��"
 }
 
 .ion-ios-glasses:before {
-    content: "�隖"
+    content: "嚙賡��"
 }
 
 .ion-ios-glasses-outline:before {
-    content: "�陻"
+    content: "嚙賡蒈"
 }
 
 .ion-ios-grid-view:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-grid-view-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-heart:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-heart-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-help:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-help-empty:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-help-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-home:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-home-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-infinite:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-infinite-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-information:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-information-empty:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-information-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-ionic-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-keypad:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-keypad-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-lightbulb:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-lightbulb-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-list:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-list-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-location:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-location-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-locked:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-locked-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-loop:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-loop-strong:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-medical:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-medical-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-medkit:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-medkit-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-mic:before {
-    content: "�鷄"
+    content: "嚙賡�"
 }
 
 .ion-ios-mic-off:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-mic-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-minus:before {
-    content: "�𪈠"
+    content: "嚙踢���"
 }
 
 .ion-ios-minus-empty:before {
-    content: "�𢅛"
+    content: "嚙踢��"
 }
 
 .ion-ios-minus-outline:before {
-    content: "�𪆓"
+    content: "嚙踢��"
 }
 
 .ion-ios-monitor:before {
-    content: "�𪈳"
+    content: "嚙踢��"
 }
 
 .ion-ios-monitor-outline:before {
-    content: "�𡤻"
+    content: "嚙踢﹞�"
 }
 
 .ion-ios-moon:before {
-    content: "�𪂹"
+    content: "嚙踢��"
 }
 
 .ion-ios-moon-outline:before {
-    content: "�鴹"
+    content: "嚙賡晶"
 }
 
 .ion-ios-more:before {
-    content: "�麐"
+    content: "嚙賡��"
 }
 
 .ion-ios-more-outline:before {
-    content: "�𪊴"
+    content: "嚙踢�𦂗"
 }
 
 .ion-ios-musical-note:before {
-    content: "�麕"
+    content: "嚙賡��"
 }
 
 .ion-ios-musical-notes:before {
-    content: "�麞"
+    content: "嚙賡��"
 }
 
 .ion-ios-navigate:before {
-    content: "�䴴"
+    content: "嚙賭斐"
 }
 
 .ion-ios-navigate-outline:before {
-    content: "�麢"
+    content: "嚙賡滯"
 }
 
 .ion-ios-nutrition:before {
-    content: "�麯"
+    content: "嚙賡滲"
 }
 
 .ion-ios-nutrition-outline:before {
-    content: "�麪"
+    content: "嚙賡漯"
 }
 
 .ion-ios-paper:before {
-    content: "�黁"
+    content: "嚙賡�"
 }
 
 .ion-ios-paper-outline:before {
-    content: "�𤍤"
+    content: "嚙踢�搇"
 }
 
 .ion-ios-paperplane:before {
-    content: "�㧥"
+    content: "嚙賬坏"
 }
 
 .ion-ios-paperplane-outline:before {
-    content: "�㭠"
+    content: "嚙賬��"
 }
 
 .ion-ios-partlysunny:before {
-    content: "�伲"
+    content: "嚙賭撞"
 }
 
 .ion-ios-partlysunny-outline:before {
-    content: "�㴝"
+    content: "嚙賬��"
 }
 
 .ion-ios-pause:before {
-    content: "�𨰫"
+    content: "嚙踢辰�"
 }
 
 .ion-ios-pause-outline:before {
-    content: "�㞾"
+    content: "嚙賬𤭮"
 }
 
 .ion-ios-paw:before {
-    content: "�鼈"
+    content: "嚙賡��"
 }
 
 .ion-ios-paw-outline:before {
-    content: "�鼂"
+    content: "嚙賡�"
 }
 
 .ion-ios-people:before {
-    content: "�鐤"
+    content: "嚙賡𨫡"
 }
 
 .ion-ios-people-outline:before {
-    content: "�䮖"
+    content: "嚙賭��"
 }
 
 .ion-ios-person:before {
-    content: "�鼗"
+    content: "嚙賡��"
 }
 
 .ion-ios-person-outline:before {
-    content: "�𦶢"
+    content: "嚙踢朱�"
 }
 
 .ion-ios-personadd:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-personadd-outline:before {
-    content: "�鼖"
+    content: "嚙賡��"
 }
 
 .ion-ios-photos:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-photos-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-pie:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-pie-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-pint:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-pint-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-play:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-play-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-plus:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-plus-empty:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-plus-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-pricetag:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-pricetag-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-pricetags:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-pricetags-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-printer:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-printer-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-pulse:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-pulse-strong:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-rainy:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-rainy-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-recording:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-recording-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-redo:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-redo-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-refresh:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-refresh-empty:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-refresh-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-reload:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-reverse-camera:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-reverse-camera-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-rewind:before {
-    content: "�働"
+    content: "嚙賢��"
 }
 
 .ion-ios-rewind-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-rose:before {
-    content: "�侢"
+    content: "嚙賭麩"
 }
 
 .ion-ios-rose-outline:before {
-    content: "�儍"
+    content: "嚙賢��"
 }
 
 .ion-ios-search:before {
-    content: "�𤨎"
+    content: "嚙踢尹�"
 }
 
 .ion-ios-search-strong:before {
-    content: "�伃"
+    content: "嚙賭�"
 }
 
 .ion-ios-settings:before {
-    content: "�佂"
+    content: "嚙賭�"
 }
 
 .ion-ios-settings-strong:before {
-    content: "�𣺊"
+    content: "嚙踢ㄩ�"
 }
 
 .ion-ios-shuffle:before {
-    content: "�偬"
+    content: "嚙賢��"
 }
 
 .ion-ios-shuffle-strong:before {
-    content: "�倮"
+    content: "嚙賢��"
 }
 
 .ion-ios-skipbackward:before {
-    content: "�俌"
+    content: "嚙賭��"
 }
 
 .ion-ios-skipbackward-outline:before {
-    content: "�傁"
+    content: "嚙賢��"
 }
 
 .ion-ios-skipforward:before {
-    content: "�偘"
+    content: "嚙賢��"
 }
 
 .ion-ios-skipforward-outline:before {
-    content: "�俥"
+    content: "嚙賭縞"
 }
 
 .ion-ios-snowy:before {
-    content: "�僼"
+    content: "嚙賢��"
 }
 
 .ion-ios-speedometer:before {
-    content: "�兛"
+    content: "嚙賢��"
 }
 
 .ion-ios-speedometer-outline:before {
-    content: "�兙"
+    content: "嚙賢��"
 }
 
 .ion-ios-star:before {
-    content: "�湶"
+    content: "嚙賣僎"
 }
 
 .ion-ios-star-half:before {
-    content: "�兝"
+    content: "嚙賢��"
 }
 
 .ion-ios-star-outline:before {
-    content: "�兞"
+    content: "嚙賢��"
 }
 
 .ion-ios-stopwatch:before {
-    content: "�𣸹"
+    content: "嚙踢ㄧ�"
 }
 
 .ion-ios-stopwatch-outline:before {
-    content: "�𣖕"
+    content: "嚙踢���"
 }
 
 .ion-ios-sunny:before {
-    content: "�浲"
+    content: "嚙賣結"
 }
 
 .ion-ios-sunny-outline:before {
-    content: "�𣺿"
+    content: "嚙踢ㄩ�"
 }
 
 .ion-ios-telephone:before {
-    content: "�𣺉"
+    content: "嚙踢ㄩ�"
 }
 
 .ion-ios-telephone-outline:before {
-    content: "�𡢄"
+    content: "嚙踢﹜�"
 }
 
 .ion-ios-tennisball:before {
-    content: "�凃"
+    content: "嚙賢�"
 }
 
 .ion-ios-tennisball-outline:before {
-    content: "�冨"
+    content: "嚙賢��"
 }
 
 .ion-ios-thunderstorm:before {
-    content: "�䓝"
+    content: "嚙賭��"
 }
 
 .ion-ios-thunderstorm-outline:before {
-    content: "�𠗠"
+    content: "嚙踢���"
 }
 
 .ion-ios-time:before {
-    content: "�𠒒"
+    content: "嚙踢���"
 }
 
 .ion-ios-time-outline:before {
-    content: "�𠒣"
+    content: "嚙踢�侢"
 }
 
 .ion-ios-timer:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-timer-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-toggle:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-toggle-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-trash:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-trash-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-undo:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-undo-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-ios-unlocked:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-unlocked-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-upload:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-upload-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-videocam:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-videocam-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-volume-high:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-volume-low:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-wineglass:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-wineglass-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-world:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ios-world-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ipad:before {
-    content: "�篅"
+    content: "嚙賜�"
 }
 
 .ion-iphone:before {
-    content: "�枂"
+    content: "嚙賣�"
 }
 
 .ion-ipod:before {
-    content: "�稬"
+    content: "嚙賜足"
 }
 
 .ion-jet:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-key:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-knife:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-laptop:before {
-    content: "�剏"
+    content: "嚙賢��"
 }
 
 .ion-leaf:before {
-    content: "�遆"
+    content: "嚙賡��"
 }
 
 .ion-levels:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-lightbulb:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-link:before {
-    content: "�㓦"
+    content: "嚙賬𣑐"
 }
 
 .ion-load-a:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-load-b:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-load-c:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-load-d:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-location:before {
-    content: "�珄"
+    content: "嚙賜�"
 }
 
 .ion-lock-combination:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-locked:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-log-in:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-log-out:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-loop:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-magnet:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-male:before {
-    content: "�𦛚"
+    content: "嚙踢���"
 }
 
 .ion-man:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-map:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-medkit:before {
-    content: "�𦜖"
+    content: "嚙踢���"
 }
 
 .ion-merge:before {
-    content: "�鈡"
+    content: "嚙賡ǜ"
 }
 
 .ion-mic-a:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-mic-b:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-mic-c:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-minus:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 
 }
 
 .ion-minus-circled:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-minus-round:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-model-s:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-monitor:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-more:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-mouse:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-music-note:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-navicon:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-navicon-round:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-navigate:before {
-    content: "�𧦠"
+    content: "嚙踢圻�"
 }
 
 .ion-network:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-no-smoking:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-nuclear:before {
-    content: "�擪"
+    content: "嚙賣𪑛"
 }
 
 .ion-outlet:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-paintbrush:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-paintbucket:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-paper-airplane:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-paperclip:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-pause:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-person:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-person-add:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-person-stalker:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-pie-graph:before {
-    content: "�𥁒"
+    content: "嚙踢��"
 }
 
 .ion-pin:before {
-    content: "�𠱃"
+    content: "嚙踢𥼚�"
 }
 
 .ion-pinpoint:before {
-    content: "�蹨"
+    content: "嚙質麂"
 }
 
 .ion-pizza:before {
-    content: "�𢆡"
+    content: "嚙踢��"
 }
 
 .ion-plane:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-planet:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-play:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-playstation:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-plus:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-plus-circled:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-plus-round:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-podium:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-pound:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-power:before {
-    content: "�𨭌"
+    content: "嚙踢身�"
 }
 
 .ion-pricetag:before {
-    content: "�𠜱"
+    content: "嚙踢�𠻸"
 }
 
 .ion-pricetags:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-printer:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-pull-request:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-qr-scanner:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-quote:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-radio-waves:before {
-    content: "�䠋"
+    content: "嚙賭��"
 }
 
 .ion-record:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-refresh:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-reply:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-reply-all:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ribbon-a:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-ribbon-b:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-sad:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-sad-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-scissors:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-search:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-settings:before {
-    content: "�𠆩"
+    content: "嚙踢��"
 }
 
 .ion-share:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-shuffle:before {
-    content: "�ǜ"
+    content: "嚙褒�"
 }
 
 .ion-skip-backward:before {
-    content: "�ü"
+    content: "嚙衛�"
 }
 
 .ion-skip-forward:before {
-    content: "�ê̄"
+    content: "嚙衛者�"
 }
 
 .ion-social-android:before {
-    content: "�ê̌"
+    content: "嚙衛者�"
 }
 
 .ion-social-android-outline:before {
-    content: "�ế"
+    content: "嚙賦瑪"
 }
 
 .ion-social-angular:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-angular-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-apple:before {
-    content: "�ê"
+    content: "嚙衛�"
 }
 
 .ion-social-apple-outline:before {
-    content: "�ề"
+    content: "嚙賦�"
 }
 
 .ion-social-bitcoin:before {
-    content: "�塳"
+    content: "嚙賢○"
 }
 
 .ion-social-bitcoin-outline:before {
-    content: "�㿺"
+    content: "嚙賬蕩"
 }
 
 .ion-social-buffer:before {
-    content: "�⏚"
+    content: "嚙賤��"
 }
 
 .ion-social-buffer-outline:before {
-    content: "�ɡ"
+    content: "嚙褕�"
 }
 
 .ion-social-chrome:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-chrome-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-codepen:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-codepen-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-css3:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-css3-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-designernews:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-designernews-outline:before {
-    content: "�⏛"
+    content: "嚙賤��"
 }
 
 .ion-social-dribbble:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-dribbble-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-dropbox:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-dropbox-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-euro:before {
-    content: "�摱"
+    content: "嚙賣𤍤"
 }
 
 .ion-social-euro-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-facebook:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-facebook-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-foursquare:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-foursquare-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-freebsd-devil:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-github:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-github-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-google:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-google-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-googleplus:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-googleplus-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-hackernews:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-hackernews-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-html5:before {
-    content: "�𢭪"
+    content: "嚙踢╲�"
 }
 
 .ion-social-html5-outline:before {
-    content: "�𤙥"
+    content: "嚙踢�䐥"
 }
 
 .ion-social-instagram:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-instagram-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-javascript:before {
-    content: "�𢬢"
+    content: "嚙踢╱�"
 }
 
 .ion-social-javascript-outline:before {
-    content: "�㨩"
+    content: "嚙賬貝"
 }
 
 .ion-social-linkedin:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-linkedin-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-markdown:before {
-    content: "�𣑐"
+    content: "嚙踢���"
 }
 
 .ion-social-nodejs:before {
-    content: "�𩣪"
+    content: "嚙踢岡�"
 }
 
 .ion-social-octocat:before {
-    content: "�𢹸"
+    content: "嚙踢Ⅰ�"
 }
 
 .ion-social-pinterest:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-pinterest-outline:before {
-    content: "�𢶍"
+    content: "嚙踢７�"
 }
 
 .ion-social-python:before {
-    content: "�挷"
+    content: "嚙賣龩"
 }
 
 .ion-social-reddit:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-reddit-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-rss:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-rss-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-sass:before {
-    content: "�𪑛"
+    content: "嚙踢���"
 }
 
 .ion-social-skype:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-skype-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-snapchat:before {
-    content: "�挱"
+    content: "嚙賣窓"
 }
 
 .ion-social-snapchat-outline:before {
-    content: "�撶"
+    content: "嚙賣𣺿"
 }
 
 .ion-social-tumblr:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-tumblr-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-tux:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-twitch:before {
-    content: "�𤧣"
+    content: "嚙踢之�"
 }
 
 .ion-social-twitch-outline:before {
-    content: "�揑"
+    content: "嚙賣��"
 }
 
 .ion-social-twitter:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-twitter-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-usd:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-usd-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-vimeo:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-vimeo-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-whatsapp:before {
-    content: "�护"
+    content: "嚙賣擪"
 }
 
 .ion-social-whatsapp-outline:before {
-    content: "�𢵧"
+    content: "嚙踢６�"
 }
 
 .ion-social-windows:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-windows-outline:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-social-wordpress:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-wordpress-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-yahoo:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-yahoo-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-yen:before {
-    content: "�搻"
+    content: "嚙賣𣸮"
 }
 
 .ion-social-yen-outline:before {
-    content: "�𢲡"
+    content: "嚙踢３�"
 }
 
 .ion-social-youtube:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-social-youtube-outline:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-soup-can:before {
-    content: "�楲"
+    content: "嚙賣必"
 }
 
 .ion-soup-can-outline:before {
-    content: "�敫"
+    content: "嚙賣𧞄"
 }
 
 .ion-speakerphone:before {
-    content: "�𤗈"
+    content: "嚙踢���"
 }
 
 .ion-speedometer:before {
-    content: "�𠓼"
+    content: "嚙踢�𡣙"
 }
 
 .ion-spoon:before {
-    content: "�𦂗"
+    content: "嚙踢��"
 }
 
 .ion-star:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-stats-bars:before {
-    content: "�𠽌"
+    content: "嚙踢𧒆�"
 }
 
 .ion-steam:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-stop:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-thermometer:before {
-    content: "�𠶖"
+    content: "嚙踢絍�"
 }
 
 .ion-thumbsdown:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-thumbsup:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-toggle:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-toggle-filled:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-transgender:before {
-    content: "�㯴"
+    content: "嚙賬秩"
 }
 
 .ion-trash-a:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-trash-b:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-trophy:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-tshirt:before {
-    content: "�𣊭"
+    content: "嚙踢�𠆩"
 }
 
 .ion-tshirt-outline:before {
-    content: "�𣂎"
+    content: "嚙踢��"
 }
 
 .ion-umbrella:before {
-    content: "�啹"
+    content: "嚙賢鈫"
 }
 
 .ion-university:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-unlocked:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-upload:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-usb:before {
-    content: "�䂻"
+    content: "嚙賭��"
 }
 
 .ion-videocamera:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-volume-high:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-volume-low:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-volume-medium:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-volume-mute:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-wand:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-waterdrop:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-wifi:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-wineglass:before {
-    content: "�䎺"
+    content: "嚙賭鑬"
 }
 
 .ion-woman:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
 
 .ion-wrench:before {
-    content: "��"
+    content: "嚙踝蕭"
 }
 
 .ion-xbox:before {
-    content: "���"
+    content: "嚙踝蕭嚙�"
 }
-/*201905�鰵憓�*/
+/*201905嚙賡做�橒蕭*/
 .ll-page-eyegen--area--info{margin-top:545px;}
 @media (max-width:375px) {
-.ll-page-eyegen--area--info{margin-top:490px;}	
+.ll-page-eyegen--area--info{margin-top:490px;}  
 }
 .ll-page-eyegen--area--eye .eye1 br,.ll-page-eyegen--area--eye .eye2 br,
 .ll-page-eyegen--area--eye .eye3 br{display:none;}
@@ -18525,103 +18541,103 @@ margin-left:30%;
 .ll-page-eyegen--area--title2{margin-top:50px;}
 @media (max-width:360px) {
 .ll-page-eyegen--area--info{margin-top:470px;}
-.ll-page-eyegen--area--title2{margin-top:20px;}	
+.ll-page-eyegen--area--title2{margin-top:20px;} 
 .ll-page-eyegen--area--eye .eye1 p,.ll-page-eyegen--area--eye .eye2 p,
-.ll-page-eyegen--area--eye .eye3 p{font-size: 14.5px!important;}	
+.ll-page-eyegen--area--eye .eye3 p{font-size: 14.5px!important;}  
 }
 @media (max-width:320px) {
-.ll-page-eyegen--area--info{margin-top:440px;margin-left: -10px;}	
+.ll-page-eyegen--area--info{margin-top:440px;margin-left: -10px;} 
 .ll-page-eyegen--area--eye .eye1 p,.ll-page-eyegen--area--eye .eye2 p,
 .ll-page-eyegen--area--eye .eye3 p{line-height: 130%!important;font-size: 13.5px!important;}
 .ll-page-eyegen--area--eye .eye2{
-	position: absolute;
+  position: absolute;
     top: 240px;
-	left: 13%;
+  left: 13%;
     width: 80%;
-	}	
+  } 
 .ll-page-eyegen--area--eye .eye3{
-	position: absolute;
+  position: absolute;
     top: 335px;
     left: 13%;
     width: 80%;
-	}	
+  } 
 }
 
 @media (min-width:360px) {
 .ll-page-eyegen--area--eye .eye2{
-	position: absolute;
+  position: absolute;
     top: 275px;
-	left: 13%;
+  left: 13%;
     width: 80%;
-	}	
+  } 
 .ll-page-eyegen--area--eye .eye3{
-	position: absolute;
+  position: absolute;
     top: 385px;
     left: 13%;
     width: 80%;
-	}	
+  } 
 }
 
 @media (min-width:375px) {
 .ll-page-eyegen--area--eye .eye2{
     top: 280px;
-	}	
+  } 
 .ll-page-eyegen--area--eye .eye3{
     top: 390px;
-	}			
+  }     
 }
 @media (min-width:414px) {
-.ll-page-eyegen--area--info{margin-top:550px;}	
+.ll-page-eyegen--area--info{margin-top:550px;}  
 .ll-page-eyegen--area--eye .eye2{
     top: 315px;
-	}	
+  } 
 .ll-page-eyegen--area--eye .eye3{
     top: 437px;
-	}	
+  } 
 }
-@media (min-width:768px) {	
+@media (min-width:768px) {  
 .ll-page-eyegen--area--eye .eye1 p,.ll-page-eyegen--area--eye .eye2 p,
-.ll-page-eyegen--area--eye .eye3 p{font-size: 22px!important;}	
-.ll-page-eyegen--area--info{margin-top:1170px;}	
+.ll-page-eyegen--area--eye .eye3 p{font-size: 22px!important;}  
+.ll-page-eyegen--area--info{margin-top:1170px;} 
 .ll-page-eyegen--area--eye .eye2{
     top: 580px;
-	}	
+  } 
 .ll-page-eyegen--area--eye .eye3{
     top: 805px;
-	}	
+  } 
 }
-@media (min-width:800px) {	
+@media (min-width:800px) {  
 .ll-page-eyegen--area--eye .eye1{
     top: 355px;position:absolute!important;
-	}	
+  } 
 .ll-page-eyegen--area--eye .eye2{
     top: 605px;
-	}	
+  } 
 .ll-page-eyegen--area--eye .eye3{
     top: 840px;
-	}		
+  }   
 }
 @media (min-width:992px) {
-.ll-page-eyegen--area--info{margin-top:545px;}		
+.ll-page-eyegen--area--info{margin-top:545px;}    
 .ll-page-eyegen--area--eye .eye1{position: absolute;top:250px!important;margin-left: 7px!important; width: 450px;}
 .ll-page-eyegen--area--eye .eye2{
-	position: absolute!important;
+  position: absolute!important;
     top: 440px!important;
     left: 23%!important;
-	width: 580px;}
+  width: 580px;}
 .ll-page-eyegen--area--eye .eye3{
-	position: absolute!important;
+  position: absolute!important;
     top: 620px!important;
     left: 28%!important;
-	}
+  }
 .ll-page-eyegen--area--eye .eye1 br,.ll-page-eyegen--area--eye .eye2 br,
 .ll-page-eyegen--area--eye .eye3 br{display:block;}
 .ll-page-eyegen--area--eye .eye1 p,.ll-page-eyegen--area--eye .eye2 p,
-.ll-page-eyegen--area--eye .eye3 p{font-size: 21px!important;}	
+.ll-page-eyegen--area--eye .eye3 p{font-size: 21px!important;}  
 }
 @media (min-width:1280px) {
 .ll-page-eyegen--area--eye .eye2{left: 28%!important;}
-.ll-page-eyegen--area--eye .eye3{left: 31%!important;}	
+.ll-page-eyegen--area--eye .eye3{left: 31%!important;}  
 }
 .tit2{border-bottom:0!important;color: #154381!important; margin-top: -30px!important;}
 @media (max-width:320px) {
@@ -18644,85 +18660,85 @@ margin-left:30%;
 .percent{width:43%;display:inline-block;margin:7px 5px;}
 .percent img{vertical-align:center;height:35px;}
 @media (min-width:320px) {
-.ll-page-eyegen--area--percent {margin: 20px -20px 20px 20px;}	
-.percent{width:44%;}	
+.ll-page-eyegen--area--percent {margin: 20px -20px 20px 20px;}  
+.percent{width:44%;}  
 .percent img{vertical-align:center;height:30px;}
 }
 @media (min-width:360px) {
-.ll-page-eyegen--area--percent {margin: 20px -10px 20px 30px;}		
+.ll-page-eyegen--area--percent {margin: 20px -10px 20px 30px;}    
 .percent img{vertical-align:center;height:32px;}
 }
 @media (min-width:375px) {
 .percent img{vertical-align:center;height:35px;}
-.percent{width:45%;}	
-.ll-page-eyegen--area--percent {margin: 20px -10px 20px 30px;}		
+.percent{width:45%;}  
+.ll-page-eyegen--area--percent {margin: 20px -10px 20px 30px;}    
 }
 @media (min-width:414px) {
 .percent{width:41%;}
-.ll-page-eyegen--area--percent {margin: 20px -20px 20px 50px;}		
+.ll-page-eyegen--area--percent {margin: 20px -20px 20px 50px;}    
 }
 @media (min-width:768px) {
 .percent{width:27%;margin:10px}
-}	
+} 
 @media (min-width:992px) {
 .percent{width:43%;display:inline-block;margin:7px 5px;}
 }
 .percent img.number{margin-left:-35px;}
 .percent span{color:#000;font-size:16px;text-align: right;float: right; letter-spacing: -0.05em;}
 .percent font{
-	color: #154381;
+  color: #154381;
     font-size: 18px;
     font-weight: bold;
     text-align: right;
     float: right;
     margin-top: -14px;
-	letter-spacing: -0.05em;
+  letter-spacing: -0.05em;
 }
 .ll-btn--area--part2>.btn{margin: -15px 2% 0!important;}
 @media (min-width:320px) {
-	.percent font{font-size: 14.5px;}	
-	.percent span{font-size:13.5px;}
+  .percent font{font-size: 14.5px;} 
+  .percent span{font-size:13.5px;}
 }
 @media (min-width:360px) {
-	.percent font{font-size: 15.5px;}	
-	.percent span{font-size:14px;}
+  .percent font{font-size: 15.5px;} 
+  .percent span{font-size:14px;}
 }
 @media (min-width:375px) {
-	.percent font{font-size: 16px;margin-top: -16px;}	
-	.percent span{font-size:15px;}
+  .percent font{font-size: 16px;margin-top: -16px;} 
+  .percent span{font-size:15px;}
 }
 @media (min-width:768px) {
-    .percent img{height:50px;}	
-	.l-page-eyegen--area--percent { margin: 20px 150px;}
-	.percent font{font-size: 21px;margin-top: -25px;}	
-	.percent span{font-size:18px;}
-	.percent{width:44%;margin:10px 10px;}
-	.ll-page-eyegen--area--percent{ margin: 20px 135px;}	
-}	
+    .percent img{height:50px;}  
+  .l-page-eyegen--area--percent { margin: 20px 150px;}
+  .percent font{font-size: 21px;margin-top: -25px;} 
+  .percent span{font-size:18px;}
+  .percent{width:44%;margin:10px 10px;}
+  .ll-page-eyegen--area--percent{ margin: 20px 135px;}  
+} 
 @media (min-width:992px) {
-	.percent span{font-size:18px;}
-	.percent {margin: 7px 10px;}
-	.ll-page-eyegen--area--percent { margin: 0px auto 10px;  width: 470px;}	
-    .percent img{height:50px;}	
+  .percent span{font-size:18px;}
+  .percent {margin: 7px 10px;}
+  .ll-page-eyegen--area--percent { margin: 0px auto 10px;  width: 470px;} 
+    .percent img{height:50px;}  
 }
 @media (min-width:1280px) {
-	.ll-page-eyegen--area--percent { margin: 15px auto 20px auto;  width: 470px;}	
+  .ll-page-eyegen--area--percent { margin: 15px auto 20px auto;  width: 470px;} 
 }
 .ll-page-eyegen--title--main--o2o font{font-size:18px;padding:0px 3px;border:1px solid #fff;  margin-right: 5px; vertical-align: middle;display: inline-block;margin-top:-5px; }
-.kv-info{float:right!important;text-align:right!important;width:95%!important;color:#000;}	
+.kv-info{float:right!important;text-align:right!important;width:95%!important;color:#000;}  
 @media (min-width:768px) {
-.ll-page-eyegen--title--main--o2o font{font-size:24px;padding:2px 10px; margin-right: 10px;margin-top:-10px;}	
+.ll-page-eyegen--title--main--o2o font{font-size:24px;padding:2px 10px; margin-right: 10px;margin-top:-10px;} 
 }
 @media (min-width:992px) {
-.ll-page-eyegen--title--main--o2o font{font-size:24px;padding:2px 7px;border:1px solid #fff;  margin-right: 5px;}	
+.ll-page-eyegen--title--main--o2o font{font-size:24px;padding:2px 7px;border:1px solid #fff;  margin-right: 5px;} 
 .kv-info{text-align:left!important;color:#fff;}
 .kv-info-width{width:40%!important;}
 }
 @media (min-width:1024px) {
 .kv-info{text-align:left!important;}
-.kv-info-width{width:50%!important;}	
+.kv-info-width{width:50%!important;}  
 .kv-btn{margin-left: -90px!important;width:430px!important;}
-#loreal-compaign label { margin-bottom: 20px;}	
+#loreal-compaign label { margin-bottom: 20px;}  
 }
 #loreal-compaign .ll-page-eyegen .event_content .textinput::-moz-placeholder {
     color: #3b3b3b!important;
@@ -18732,10 +18748,10 @@ margin-left:30%;
 #loreal-compaign .ll-page-eyegen .event_content .textinput:-ms-input-placeholder {
     color: #3b3b3b!important;
 }
-	
+  
 #loreal-compaign .ll-page-eyegen .event_content .textinput::-webkit-input-placeholder {
     color: #3b3b3b!important;
-}	
+} 
 .adjust{top:-135px;position:absolute;display:block;width:100px;z-index: 1;}
 @media screen and (max-width: 414px){
 .adjust{top:-215px;position:absolute;display:block;width:100px;z-index: 1;} 
