@@ -2793,30 +2793,34 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     margin-bottom: 1rem;
   }
 }
+/* 未加 */
 .section1__note-text,
 .section2__note-text,
 .section5__note-text {
   overflow: hidden;
 }
-
+/* 未加 */
 @media (max-width: 767px) {
   .section1__note-text,
   .section5__note-text {
     width: 770px;
   }
 }
+/* 未加 */
 @media (max-width: 414px) {
   .section1__note-text,
   .section5__note-text {
     width: 550px;
   }
 }
+/* 未加 */
 @media (max-width: 375px) {
   .section1__note-text,
   .section5__note-text {
     width: 500px;
   }
 }
+/* 未加 */
 @media (max-width: 360px) {
   .section1__note-text,
   .section5__note-text {
@@ -2840,6 +2844,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     margin-right: 3rem;
   }
 }
+/* 未加 */
 @media (max-width: 414px) {
   .section2__note-text {
     width: 290%;
@@ -2939,6 +2944,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 .GN-Repush__section2 .content-text {
   line-height: 1.2;
 }
+/* mark */
 @media (max-width: 414px) {
   .GN-Repush__section2 .content-text--s {
     font-size: 14px;
@@ -3161,13 +3167,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   right: 10rem;
   text-align: center;
 }
-/* btn */
-@media (max-width: 375px) {
-  .GN-Repush__section4__content .lancome-btn__link {
-    font-size: 0.925rem;
-    padding: 0.7rem 2.5rem;
-  }
-}
+
 @media (max-width: 1024px) {
   .GN-Repush__section4__content {
     left: 7rem;
@@ -3185,6 +3185,13 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
     left: 0rem;
     right: 0rem;
     top: 2.8rem;
+  }
+}
+/* btn */
+@media (max-width: 375px) {
+  .GN-Repush__section4__content .lancome-btn__link {
+    font-size: 0.925rem;
+    padding: 0.7rem 2.5rem;
   }
 }
 @media (max-width: 414px) {

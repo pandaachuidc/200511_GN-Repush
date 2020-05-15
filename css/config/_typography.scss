@@ -1,9 +1,6 @@
 // $base-font-size: 1rem;
 $base-font-size: 16px;
 $base-line-height: 1.5;
-// @include mobile-414{
-//   $base-font-size: 40px;
-// }
 
 @function toRem($unit) {
   @return ($unit / $base-font-size) * 1rem;
@@ -27,6 +24,39 @@ $font-s-mb: toRem(18px);
 $font-ss-mb: toRem(16px);
 $font-xs-mb: toRem(11px);
 
+/* # =================================================================
+   # 星號及小字
+   # ================================================================= */
+sup {
+  vertical-align: super;
+  font-size: smaller;
+  top: 0;
+  @include mobile-414 {
+    top: 0;
+  }
+}
+
+.small-text {
+  display: inline-block;
+  font-size: 12px;
+  -webkit-text-size-adjust: none;
+  -webkit-transform: scale(0.83, 0.83);
+  @include mobile-414 {
+    -webkit-transform: scale(0.4, 0.4);
+  }
+}
+
+.forcefontsize8 {
+  display: inline-block;
+  font-size: 12px;
+  -webkit-text-size-adjust: none;
+  -webkit-transform: scale(0.66, 0.66);
+}
+
+/* # =================================================================
+   # 內文
+   # ================================================================= */
+
 h2 {
   font-size: $font-xl;
   font-weight: bold;
@@ -43,8 +73,13 @@ h2 {
 h3 {
   font-size: $font-l;
   font-weight: bold;
+  &--l {
+    font-size: 32px;
+    font-weight: bold;
+  }
   @include desktop-1024 {
-    font-size: $font-l - 0.3;
+    // font-size: $font-l - 0.3;
+    font-size: 27px;
   }
   @include pad-767 {
     font-size: $font-l-mb;
@@ -65,6 +100,9 @@ h3 {
   @include mobile-414 {
     font-size: 25px;
   }
+  @include mobile-320 {
+    font-size: 21px;
+  }
 }
 .sec2-main-text2 {
   font-size: $font-l;
@@ -75,10 +113,10 @@ h3 {
     font-size: $font-l;
   }
   @include mobile-414 {
-    font-size: 18px;
+    font-size: 15px;
   }
   @include mobile-375 {
-    font-size: 17px;
+    font-size: 14px;
   }
 }
 .content-text {
@@ -91,8 +129,10 @@ h3 {
     &--s {
       font-size: 20px - 5;
     }
+    &--ss {
+      font-size: 13px;
+    }
   }
-  
 }
 .content-text-product {
   font-size: $font-m;

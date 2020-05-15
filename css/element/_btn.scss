@@ -60,17 +60,20 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
   letter-spacing: 0.1em;
   border: 1px solid #000;
   box-shadow: 0 0 10px #fff;
-  @include pad-767{
+  &--active {
+    transition: all 0.5s ease;
+    overflow: hidden;
+    position: relative;
+    &:hover {
+      transform: scale(0.9);
+      background: #fff;
+      color: #000;
+    }
+  }
+  @include pad-767 {
     font-size: $font-s - 0.2;
   }
-}
-.lancome-btn__link--active {
-  transition: all 0.5s ease;
-  overflow: hidden;
-  position: relative;
-  &:hover {
-    transform: scale(0.9);
-    background: #fff;
-    color: #000;
+  @include mobile-320{
+    padding: 0.7rem 2.5rem;
   }
 }
