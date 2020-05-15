@@ -16,6 +16,11 @@
   justify-content: space-between;
 }
 
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
 /*!
  * ress.css • v2.0.4
  * MIT License
